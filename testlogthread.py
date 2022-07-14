@@ -563,6 +563,7 @@ async def main(auth,locale,account,proxys,userAgent):
 
 
 def authlogin(locale,user,password,myproxy,userAgent):
+    
     auth = Authenticator.from_login(
         username=user,
         proxys=myproxy,
@@ -571,23 +572,31 @@ def authlogin(locale,user,password,myproxy,userAgent):
         locale=locale,
         captcha_callback=custom_captcha_callback,
     )
+    print(222222222222)
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main(auth,locale,user,myproxy,userAgent))          
         
 
 def asyncamzon(index): 
+    ip_que = Queue(1200)
+    validip_que = Queue(1200)
+    ipCheckoutThreadMount = 7
+    ipCollectThreadMount = 2
+    dataCollectThreadMount = 5
     with open('amazon.txt', 'r') as f:
         for i, line in enumerate(f):
             if i % 10 == index:
+                
                 userinfo = line.split('|')
                 user = userinfo[0]
                 password = userinfo[1]
                 locale = userinfo[2].replace('\n', '')
-
+                validip_que.put("202.55.5.209:8090")
+                
                 validip = validip_que.get()
                 userAgent =  userAgents.getUA()
                 myproxy=validip
-
+          
                 authlogin(locale,user,password,myproxy,userAgent)
           
       
@@ -596,16 +605,12 @@ if __name__ == "__main__":
 
     start = time.time()
     
-    ip_que = Queue(1200)
-    validip_que = Queue(1200)
-    ipCheckoutThreadMount = 7
-    ipCollectThreadMount = 2
-    dataCollectThreadMount = 5
-    proxy_helper = Proxy_helper(ip_que, validip_que, ipCheckoutThreadMount, ipCollectThreadMount)
+    
+    # proxy_helper = Proxy_helper(ip_que, validip_que, ipCheckoutThreadMount, ipCollectThreadMount)
         # 循环 多用户
     signal.signal(signal.SIGINT, quit)                                
     signal.signal(signal.SIGTERM, quit)
-    proxy_helper.run()
+    # proxy_helper.run()
     p = Pool(4)
     for i in range(5):
         p.apply_async(asyncamzon, args=(i,))

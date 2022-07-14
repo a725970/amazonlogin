@@ -1761,3 +1761,11 @@
 13:14:24,643 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
 14:18:09,613 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
 14:18:10,839 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+14:29:13,581 audible.localization DEBUG found locale for united_states
+14:29:13,582 audible.login INFO Login with Amazon Account.
+14:30:47,991 audible.localization DEBUG found locale for united_states
+14:30:47,991 audible.login INFO Login with Amazon Account.
+14:31:08,190 audible.localization DEBUG found locale for united_states
+14:31:08,190 audible.login INFO Login with Amazon Account.
+14:31:26,967 audible.localization DEBUG found locale for united_states
+14:31:26,967 audible.login INFO Login with Amazon Account.

@@ -73,39 +73,39 @@ class Proxy_helper():
 
     def collectUrl(self,ip_que):
         print("代理IP采集线程开启")
-        # with open('proxy.txt', 'r') as f:
-        #     for line in f.readlines():
-        #         inip = line
-        #         self.ip_que.put(inip)
-        #         # self.validip_que.put(inip)
-        apiUrl="https://foortu.com/proxy/1134f1fba496dc78a93017d52bbe46a4"
-        if ip_que.qsize() < 100:
-            print("开始采集代理IP")
-            # headers.txt里的内容为浏览器打开apiUrl的请求头，将该请求头用于发送请求代理IP的接口
-            with open('proxy_api_requestHeaders.txt', 'r') as f:
-                headerStr=f.read()
-                headersArr=headerStr.split('\n')
-            headers={}
-            for headerItem in headersArr:
-                headersItemName=headerItem.split(': ')[0]
-                headerItemValue=headerItem.split(': ')[1]
-                headers[headersItemName]=headerItemValue
-            response = requests.get(apiUrl,headers=headers)
+        with open('proxy.txt', 'r') as f:
+            for line in f.readlines():
+                inip = line
+                self.ip_que.put(inip)
+                # self.validip_que.put(inip)
+        # apiUrl="https://foortu.com/proxy/1134f1fba496dc78a93017d52bbe46a4"
+        # if ip_que.qsize() < 100:
+        #     print("开始采集代理IP")
+        #     # headers.txt里的内容为浏览器打开apiUrl的请求头，将该请求头用于发送请求代理IP的接口
+        #     with open('proxy_api_requestHeaders.txt', 'r') as f:
+        #         headerStr=f.read()
+        #         headersArr=headerStr.split('\n')
+        #     headers={}
+        #     for headerItem in headersArr:
+        #         headersItemName=headerItem.split(': ')[0]
+        #         headerItemValue=headerItem.split(': ')[1]
+        #         headers[headersItemName]=headerItemValue
+        #     response = requests.get(apiUrl,headers=headers)
             
-            text = response.text
+        #     text = response.text
             
-            to_one_line = ' '.join(text.split())
-            IP_LIST = to_one_line.split(' ')
+        #     to_one_line = ' '.join(text.split())
+        #     IP_LIST = to_one_line.split(' ')
           
-            for ip in IP_LIST[0:50]:
-                ip_que.put(ip)
-                print(ip)
-            print("成功收集代理IP%d条" % (len(IP_LIST)))
-            print("当前代理IP个数为%d" % (ip_que.qsize()))
-        else:
+        #     for ip in IP_LIST[0:50]:
+        #         ip_que.put(ip)
+        #         print(ip)
+        #     print("成功收集代理IP%d条" % (len(IP_LIST)))
+        #     print("当前代理IP个数为%d" % (ip_que.qsize()))
+        # else:
             
-            # print("代理IP数量已达上限，开始休眠")
-            time.sleep(1)
+        #     # print("代理IP数量已达上限，开始休眠")
+        #     time.sleep(1)
 
 def main():
     ip_que=Queue(1200)
