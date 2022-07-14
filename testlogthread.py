@@ -26,6 +26,7 @@ import requests
 from requests.cookies import cookiejar_from_dict
 import asyncio
 import ddddocr
+from multiprocessing import Pool
 
 from urllib.parse import urlparse
 import audible
@@ -573,7 +574,23 @@ def authlogin(locale,user,password,myproxy,userAgent):
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main(auth,locale,user,myproxy,userAgent))          
         
-        
+
+def asyncamzon(index): 
+    with open('amazon.txt', 'r') as f:
+        for i, line in enumerate(f):
+            if i % 10 == index:
+                userinfo = line.split('|')
+                user = userinfo[0]
+                password = userinfo[1]
+                locale = userinfo[2].replace('\n', '')
+
+                validip = validip_que.get()
+                userAgent =  userAgents.getUA()
+                myproxy=validip
+
+                authlogin(locale,user,password,myproxy,userAgent)
+          
+      
 if __name__ == "__main__":
     import time
 
@@ -589,32 +606,12 @@ if __name__ == "__main__":
     signal.signal(signal.SIGINT, quit)                                
     signal.signal(signal.SIGTERM, quit)
     proxy_helper.run()
-    
-    with open('amazon.txt', 'r') as f:
-        for line in f.readlines():
-            userinfo = line.split('|')
-            user = userinfo[0]
-            password = userinfo[1]
-            locale = userinfo[2].replace('\n', '')
-
-            validip = validip_que.get()
-            userAgent =  userAgents.getUA()
-            myproxy=validip
-
-          
-            t = threading.Thread(target=authlogin(), args=(locale,user,password,myproxy,userAgent), daemon=True)
-            threads.append(t)
-
-            print("数据采集线程%d开启" % (1))
-
-            ThinkTime = 0.1#设置思考时间
-            for t in threads:
-                time.sleep(ThinkTime) 
-                #print "thread %s" %t #打印线程
-                # t.setDaemon(True)
-                print("数据--------线程%d开启" % (1))
-                t.start()
-            t.join()
+    p = Pool(4)
+    for i in range(5):
+        p.apply_async(asyncamzon, args=(i,))
+    print('Waiting for all subprocesses done...')
+    p.close()
+    p.join()
    
            
     end = time.time()
