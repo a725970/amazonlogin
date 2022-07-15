@@ -19,10 +19,11 @@ from concurrent.futures import ThreadPoolExecutor
 import os
 import signal
 from audible.auth import Authenticator
-
+import asyncio
 import httpx
 import requests
 
+import globalVal
 from requests.cookies import cookiejar_from_dict
 import asyncio
 import ddddocr
@@ -30,6 +31,11 @@ from multiprocessing import Pool
 
 from urllib.parse import urlparse
 import audible
+import random
+ipCheckoutThreadMount = 7
+ipCollectThreadMount = 2
+dataCollectThreadMount = 5  
+LOGINCOUNT = {}
 REGIONS_URLS = {
     "sg": "https://www.amazon.sg/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https://www.amazon.sg/ref=nav_logo/?_encoding=UTF8&ref_=navm_hdr_signin&openid.identity=http://specs.openid.net/auth/2.0/identifier_select&openid.assoc_handle=anywhere_v2_sg&openid.mode=checkid_setup&openid.claimed_id=http://specs.openid.net/auth/2.0/identifier_select&openid.ns=http://specs.openid.net/auth/2.0&",
     "nl": "https://www.amazon.nl/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https://www.amazon.nl/ref=nav_logo/?_encoding=UTF8&ref_=navm_hdr_signin&openid.identity=http://specs.openid.net/auth/2.0/identifier_select&openid.assoc_handle=anywhere_v2_nl&openid.mode=checkid_setup&openid.claimed_id=http://specs.openid.net/auth/2.0/identifier_select&openid.ns=http://specs.openid.net/auth/2.0&",
@@ -50,10 +56,16 @@ REGIONS_URLS = {
 }
 def recognize_text(src):
     code_url = src
-    r=requests.get(url=code_url,timeout=5)
+    print(src)
+    validip = 'http://127.0.0.1:7890'
+
+    proxy = {'https': validip,'http': validip}
+
+
+    r=requests.get(url=code_url,timeout=5,proxies=proxy,verify=False)
     ocr = ddddocr.DdddOcr()
     img_bytes=r.content
-
+    print(src)
     res = ocr.classification(img_bytes)
     return res
 
@@ -432,7 +444,7 @@ class Spider():
         
         global sql
         sql = """
-        INSERT INTO `spider`.`userlist` (`account`, `cookie`, `status`, `host`, `password`, `region`, `ip`, `ua`) VALUES ("%s", '%s', "%s", "%s", "%s", "%s", "%s", "%s")
+        REPLACE INTO `userlist` (`account`, `cookie`, `status`, `host`, `password`, `region`, `ip`, `ua`) VALUES ("%s", '%s', "%s", "%s", "%s", "%s", "%s", "%s")
         """ %(account,cookie,'1',host,password,region,ip,ua)
  
         if self.mysqlClient.cursor().execute(sql):
@@ -495,26 +507,12 @@ class Spider():
 
 # os.environ['TESSDATA_PREFIX'] = "C:\\Program Files (x86)\\Tesseract-OCR\tessdata/tessdata/eng.traineddata"
 
-def custom_approval_callback():
-    print('-----------')
-    return True
-    # You can let python check for the received Amazon mail and 
 
-def custom_captcha_callback(captcha_url: str) -> str:
-    """Opens captcha image with eog, or default webbrowser as fallback"""
-    # src = cv.imread(captcha_url)
-    start = time.time()
-   
-    val = recognize_text(captcha_url)
 
-    end = time.time()
-    print('Running time: %s Seconds' % (end-start))
-
-    return val
-async def main(auth,locale,account,proxys,userAgent):
+async def getinfo(auth,locale,account,proxys,userAgent):
     async with audible.AsyncClient(auth) as client:
-        print(repr(client))
-    
+        # print(repr(client))
+        
         with httpx.Client(cookies=auth.website_cookies) as session:
             scheme, netloc, path, _, _, _ = urlparse(REGIONS_URLS[locale])
             url = 'https://'+netloc+'/'
@@ -561,9 +559,44 @@ async def main(auth,locale,account,proxys,userAgent):
             #     pass
             print("数据采集线程%d开启" % (1))
 
+def custom_otp_callback(userinfo: str):
+    print('custom_otp_callback')
+    # Do some things to insert otp code
+    with open('fail/otpuserinfo.txt', 'a+', encoding='utf-8') as f:
+        f.write(userinfo)
+                  
+    return "My answer for otp code"
+def custom_cvf_callback(userinfo: str):
 
+    # Do some things to insert cvf code
+    with open('fail/cvfuserinfo.txt', 'a+', encoding='utf-8') as f:
+        f.write(userinfo)
+    return "My answer for cvf code"
+def custom_approval_callback(userinfo: str):
+    with open('fail/approvaluserinfo.txt', 'a+', encoding='utf-8') as f:
+        f.write(userinfo)
+    return "My answer for callback"
+
+def custom_captcha_callback(captcha_url: str) -> str:
+    """Opens captcha image with eog, or default webbrowser as fallback"""
+    print(captcha_url)
+    # LOGINCOUNT[userinfo] =+ 1
+    # if LOGINCOUNT[userinfo] > 3:
+    #     return True
+    print(LOGINCOUNT)
+    # src = cv.imread(captcha_url)
+    start = time.time()
+   
+    val = recognize_text(captcha_url)
+  
+    end = time.time()
+    print('Running time: %s Seconds' % (end-start))
+
+    return val
 def authlogin(locale,user,password,myproxy,userAgent):
-    
+    myproxy="http://"+myproxy
+    print(myproxy)
+    LOGINCOUNT[user] = 0
     auth = Authenticator.from_login(
         username=user,
         proxys=myproxy,
@@ -571,49 +604,95 @@ def authlogin(locale,user,password,myproxy,userAgent):
         password=password,
         locale=locale,
         captcha_callback=custom_captcha_callback,
+        otp_callback=None,
+        cvf_callback=None,
+        approval_callback=None
     )
-    print(222222222222)
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(main(auth,locale,user,myproxy,userAgent))          
+    
+    sem = asyncio.Semaphore(10)
+    asyncio.run(getinfo(infos, auth,locale,user,myproxy,userAgent))
+    # getinfo(auth,locale,user,myproxy,userAgent)
+    # loop = asyncio.get_event_loop()
+    # loop.run_until_complete(main(auth,locale,user,myproxy,userAgent))          
         
+def get_ip() -> str:
+    apiUrl="https://foortu.com/proxy/1134f1fba496dc78a93017d52bbe46a4"
+    
+    print("开始采集代理IP")
+    # headers.txt里的内容为浏览器打开apiUrl的请求头，将该请求头用于发送请求代理IP的接口
+    with open('proxy_api_requestHeaders.txt', 'r') as f:
+        headerStr=f.read()
+        headersArr=headerStr.split('\n')
+    headers={}
+    for headerItem in headersArr:
+        headersItemName=headerItem.split(': ')[0]
+        headerItemValue=headerItem.split(': ')[1]
+        headers[headersItemName]=headerItemValue
+    response = requests.get(apiUrl,headers=headers,verify=False)
+    
+    text = response.text
+    
+    to_one_line = ' '.join(text.split())
+    ip_list = to_one_line.split(' ')
 
+   
+    # with open("./ip.txt", "r") as ip_handle:
+    #     ip_data = ip_handle.read()
+    #     ip_data = ip_data.strip()
+    #     ip_list = ip_data.split("\n")
+    ip = ip_list[random.randint(0, len(ip_list)-1)]
+    return ip
 def asyncamzon(index): 
-    ip_que = Queue(1200)
-    validip_que = Queue(1200)
-    ipCheckoutThreadMount = 7
-    ipCollectThreadMount = 2
-    dataCollectThreadMount = 5
+
     with open('amazon.txt', 'r') as f:
         for i, line in enumerate(f):
+            
             if i % 10 == index:
-                
+                proxy_ip = None
+                while True:
+                    proxy_ip = get_ip()
+                 
+                    print("拿到代理IP:", proxy_ip)
+                    proxies = {
+                        'http': 'http://' + proxy_ip,
+                    }
+                    try:
+                        resp = requests.get("http://httpbin.org/ip", proxies=proxies)
+                        print("代理返回码:", resp.status_code)
+                        if resp.status_code == 200:
+                            break
+                        else:
+                            print("IP:", proxy_ip, "无效")
+                            time.sleep(1)
+                    except:
+                        print("IP:", proxy_ip, "无效")
+                        time.sleep(1)
                 userinfo = line.split('|')
                 user = userinfo[0]
                 password = userinfo[1]
                 locale = userinfo[2].replace('\n', '')
-                validip_que.put("202.55.5.209:8090")
-                
-                validip = validip_que.get()
+                # validip_que.put("https://127.0.0.1:7890")
+               
+                print(userinfo)
                 userAgent =  userAgents.getUA()
-                myproxy=validip
-          
+                myproxy=proxy_ip
+               
                 authlogin(locale,user,password,myproxy,userAgent)
           
-      
+
+  
 if __name__ == "__main__":
     import time
 
     start = time.time()
-    
-    
-    # proxy_helper = Proxy_helper(ip_que, validip_que, ipCheckoutThreadMount, ipCollectThreadMount)
-        # 循环 多用户
+  
     signal.signal(signal.SIGINT, quit)                                
     signal.signal(signal.SIGTERM, quit)
-    # proxy_helper.run()
+    
     p = Pool(4)
     for i in range(5):
         p.apply_async(asyncamzon, args=(i,))
+   
     print('Waiting for all subprocesses done...')
     p.close()
     p.join()
