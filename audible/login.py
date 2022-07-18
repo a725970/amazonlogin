@@ -501,7 +501,7 @@ def login(
     # check for approval alert
     while check_for_approval_alert(login_soup):
         if approval_callback:
-            approval_callback()
+            approval_callback(username)
         else:
             default_approval_alert_callback()
 
@@ -516,6 +516,7 @@ def login(
          ):  # a-size-base-plus transaction-approval-word-break a-text-bold
              login_resp = session.get(url)
              login_soup = get_soup(login_resp)
+             return False
              logger.info("still waiting for redirect")
 
     session.close()
