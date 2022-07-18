@@ -13046,3 +13046,1205 @@
 04:15:41,660 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 185.14.29.42:30133
 04:15:41,834 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.38.97.134:30270
 04:15:42,141 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:29:56,716 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:29:56,720 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:29:56,723 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:29:56,729 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:29:59,358 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:29:59,373 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:29:59,373 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:29:59,389 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:00,85 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 178.63.0.115:30071
+05:30:00,97 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 95.216.7.115:30149
+05:30:00,101 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.38.97.134:30001
+05:30:00,123 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.6.85:30031
+05:30:01,420 urllib3.connectionpool DEBUG http://178.63.0.115:30071 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:30:01,420 audible.localization DEBUG found locale for japan
+05:30:01,431 audible.login WARNING Username musashi-love.and.peace..@docomo.ne.jp is not a valid mail address.
+05:30:01,431 audible.login INFO Login with Amazon Account.
+05:30:01,609 urllib3.connectionpool DEBUG http://95.216.7.115:30149 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:30:01,610 audible.localization DEBUG found locale for japan
+05:30:01,610 audible.login WARNING Username miecyan04@yahoo.co.jp is not a valid mail address.
+05:30:01,611 audible.login INFO Login with Amazon Account.
+05:30:01,738 urllib3.connectionpool DEBUG http://151.106.6.85:30031 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:30:01,740 audible.localization DEBUG found locale for japan
+05:30:01,740 audible.login WARNING Username miu.o6o1.a-t.baby@docomo.ne.jp is not a valid mail address.
+05:30:01,740 audible.login INFO Login with Amazon Account.
+05:30:01,983 urllib3.connectionpool DEBUG http://89.38.97.134:30001 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:30:01,983 audible.localization DEBUG found locale for japan
+05:30:01,999 audible.login WARNING Username mii-3-0314@softbank.ne.jp is not a valid mail address.
+05:30:01,999 audible.login INFO Login with Amazon Account.
+05:30:03,936 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=dYGPk--5dyn6bmgAF6217noPK13wTOca5Js6ynfBc8Q&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4241373533303546363144423433353238334435434642464438373336464342234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:04,748 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=RS2j80_CBWQvONxg4s5ZBLoEnWI9X4hyPEMYQj1z7AY&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4139363735383241323339443431433041383637413542303539383341424537234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:04,959 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=1zAZIhaGbVRNEXR9BeQxHI2KA_LgmsnsV3mgQkrWZQ8&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3146333934363032343033413439364138393631433436373838314135344436234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:05,186 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=pGHAN1164ZIsx8T7RFqYKOjoNhMhgtAoLyzIrw_n_gg&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4332463838453039414339363443344141373134343242383235454441413137234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:05,795 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/356-4971511-4111652 "HTTP/1.1 200 OK"
+05:30:06,68 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:06,717 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-8056323-1011153 "HTTP/1.1 200 OK"
+05:30:06,961 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:07,50 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:07,170 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-2945358-7130934 "HTTP/1.1 200 OK"
+05:30:07,597 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-1352619-4289607 "HTTP/1.1 200 OK"
+05:30:07,782 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 5.135.165.186:30089
+05:30:07,942 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:08,732 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 178.63.0.115:30237
+05:30:09,159 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:10,123 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:10,170 urllib3.connectionpool DEBUG http://5.135.165.186:30089 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:30:10,170 audible.localization DEBUG found locale for japan
+05:30:10,170 audible.login INFO Login with Amazon Account.
+05:30:10,233 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:10,472 urllib3.connectionpool DEBUG http://178.63.0.115:30237 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:30:10,473 audible.localization DEBUG found locale for japan
+05:30:10,473 audible.login WARNING Username t.r.i.061809190925@gmail.com is not a valid mail address.
+05:30:10,474 audible.login INFO Login with Amazon Account.
+05:30:10,860 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.5.109:30169
+05:30:11,202 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:11,932 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 178.32.218.21:30098
+05:30:12,505 urllib3.connectionpool DEBUG http://151.106.5.109:30169 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:30:12,507 audible.localization DEBUG found locale for japan
+05:30:12,507 audible.login INFO Login with Amazon Account.
+05:30:13,216 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=qC__ZWpkObXQcTXGkIskHQcUNA44to-SM6LxaqHqdBQ&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4641313143304433383837373437324338463935343831393946364430383832234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:15,353 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-6946666-8940920 "HTTP/1.1 200 OK"
+05:30:15,640 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=ky8F3GPWqxNJaUiD5Hj_RtU3h4SCX25wOOkankARLSY&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4137384545373744344334413435304139313844413137414238444239323534234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:16,15 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:16,65 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=9ql24c5J2C9gRAU7Mu2EHbPtCHGfJpy0ACmBri-uVjU&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3942373443433135433043323446303441414442453235434645443043433937234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:16,543 urllib3.connectionpool DEBUG http://178.32.218.21:30098 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:30:16,545 audible.localization DEBUG found locale for japan
+05:30:16,545 audible.login INFO Login with Amazon Account.
+05:30:16,971 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:17,470 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-0290614-1432606 "HTTP/1.1 302 Found"
+05:30:17,682 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 195.123.246.146:30076
+05:30:19,370 urllib3.connectionpool DEBUG http://195.123.246.146:30076 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:30:19,372 audible.localization DEBUG found locale for japan
+05:30:19,372 audible.login INFO Login with Amazon Account.
+05:30:19,573 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/challenge?ie=UTF8&arb=90f50266-11f5-4959-ba79-dfe8ee201e1a "HTTP/1.1 302 Found"
+05:30:20,476 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-9488368-1665021 "HTTP/1.1 200 OK"
+05:30:20,733 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/forgotpassword/reverification?clientContext=358-2632062-5276932&openid.pape.max_auth_age=0&forceMobileLayout=true&accountStatusPolicy=P1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&marketPlaceId=A1QAP3MOU4173J&pageId=amzn_audible_ios&arb=a2309c1f-9aad-4566-b5c3-66a2a19d8743&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.oa2.response_type=code&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=ky8F3GPWqxNJaUiD5Hj_RtU3h4SCX25wOOkankARLSY&openid.oa2.scope=device_auth_access&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.oa2.client_id=device%3A4137384545373744344334413435304139313844413137414238444239323534234132435a4a5a474c4b324a4a564d&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 "HTTP/1.1 200 OK"
+05:30:21,720 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:21,807 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:21,907 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:22,694 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:22,764 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:22,873 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:23,416 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 91.232.105.140:30251
+05:30:23,476 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=3hhDKdJPprKWwAGNC32S0oYoHjdnuEWKeyJ3MnsucxQ&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3743363146463436343143343441374539373644354346433545414334443834234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:23,492 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 194.88.106.68:30249
+05:30:23,600 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 185.14.29.42:30056
+05:30:24,998 urllib3.connectionpool DEBUG http://185.14.29.42:30056 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:30:24,998 audible.localization DEBUG found locale for japan
+05:30:24,998 audible.login WARNING Username junkunplus@yahoo.co.jp is not a valid mail address.
+05:30:24,998 audible.login INFO Login with Amazon Account.
+05:30:25,482 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/356-6424796-5349531 "HTTP/1.1 200 OK"
+05:30:25,730 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:25,859 urllib3.connectionpool DEBUG http://91.232.105.140:30251 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:30:25,859 audible.localization DEBUG found locale for japan
+05:30:25,859 audible.login WARNING Username klugfrau0518@hotmail.co.jp is not a valid mail address.
+05:30:25,871 audible.login INFO Login with Amazon Account.
+05:30:26,710 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:27,441 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.4.121:30188
+05:30:27,523 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=l3OA2qO66yqbC1c4UZcqvkWhBc83eivTFQpNWmqRuA0&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3732323435393645443546363443304642354444323831314435333731454438234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:29,273 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-4159219-9979660 "HTTP/1.1 200 OK"
+05:30:29,505 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:29,987 urllib3.connectionpool DEBUG http://151.106.4.121:30188 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:30:29,988 audible.localization DEBUG found locale for japan
+05:30:29,989 audible.login WARNING Username masaru.fuse.nd@docomo-support.co.jp is not a valid mail address.
+05:30:29,989 audible.login INFO Login with Amazon Account.
+05:30:31,40 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:31,766 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 92.204.254.33:30166
+05:30:32,49 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=JA8qm_M2j0Ia98hOfas4vmylJn2IvuNx_1YEXisCXIw&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3331463243383133313534383436384342424537313043343430413138443142234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:33,102 urllib3.connectionpool DEBUG http://92.204.254.33:30166 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:30:33,103 audible.localization DEBUG found locale for japan
+05:30:33,103 audible.login WARNING Username chartr28@cl.cilas.net is not a valid mail address.
+05:30:33,104 audible.login INFO Login with Amazon Account.
+05:30:34,295 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-9377563-1276642 "HTTP/1.1 200 OK"
+05:30:35,264 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=CHEGJqivQOzFN3hE9HmgLGg5WYwUfNsf7ZSH9-i3bvY&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4134444536364441333533413437343642333838464246424532314535344536234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:35,936 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=nGj22KSlIWLGh43FSjqBZWRdB3l1MQmkbWpzj_d31xs&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3134464538364242453937453430313341334446313546384246454430303735234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:37,437 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:38,91 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-2442095-3816118 "HTTP/1.1 200 OK"
+05:30:38,193 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-3372173-1285404 "HTTP/1.1 200 OK"
+05:30:38,392 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:38,732 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:39,162 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 217.12.201.188:30224
+05:30:39,509 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:39,689 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:40,471 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 185.14.28.139:30183
+05:30:40,479 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:40,904 urllib3.connectionpool DEBUG http://217.12.201.188:30224 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:30:40,904 audible.localization DEBUG found locale for japan
+05:30:40,904 audible.login WARNING Username mikekomomo@yahoo.co.jp is not a valid mail address.
+05:30:40,914 audible.login INFO Login with Amazon Account.
+05:30:41,254 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.38.97.117:30029
+05:30:42,969 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=58r2-0QOe-gWHW2lHPAkzXdfnl50NYgd02RGT1PB2B8&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3244463141334539413037413437314541343138353745454243364436323336234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:43,39 urllib3.connectionpool DEBUG http://89.38.97.117:30029 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:30:43,40 audible.localization DEBUG found locale for japan
+05:30:43,40 audible.login INFO Login with Amazon Account.
+05:30:43,151 urllib3.connectionpool DEBUG http://185.14.28.139:30183 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:30:43,152 audible.localization DEBUG found locale for japan
+05:30:43,152 audible.login WARNING Username musainu930@yahoo.co.jp is not a valid mail address.
+05:30:43,153 audible.login INFO Login with Amazon Account.
+05:30:45,295 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=lOqa4He7ZDZNKlV0Rdj5phvi5IZ0NGo_xrEleM0qSoM&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4135304639303846463146433439383441453931443545343431393942463646234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:45,479 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-3179891-0397427 "HTTP/1.1 200 OK"
+05:30:46,151 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:47,197 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:47,924 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 5.135.164.151:30260
+05:30:49,919 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:50,888 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:51,674 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 178.32.217.113:30127
+05:30:51,967 urllib3.connectionpool DEBUG http://5.135.164.151:30260 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:30:51,967 audible.localization DEBUG found locale for japan
+05:30:51,967 audible.login WARNING Username sizu@softbank.ne.jg is not a valid mail address.
+05:30:51,973 audible.login INFO Login with Amazon Account.
+05:30:52,27 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-7465654-6124546 "HTTP/1.1 200 OK"
+05:30:52,80 urllib3.connectionpool DEBUG http://194.88.106.68:30249 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:30:52,81 audible.localization DEBUG found locale for japan
+05:30:52,82 audible.login WARNING Username sakurakomachi-kazu.oyasumi0514@hotmail.co.jp is not a valid mail address.
+05:30:52,82 audible.login INFO Login with Amazon Account.
+05:30:53,477 urllib3.connectionpool DEBUG http://178.32.217.113:30127 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:30:53,478 audible.localization DEBUG found locale for japan
+05:30:53,478 audible.login INFO Login with Amazon Account.
+05:30:54,306 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:55,287 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=4LuS15GfxojhVc7fvMAEXx-f1oaDn5AUd5Ph7oUs-VI&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4543413345373743354234393442333238393534463232374434454534433039234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:55,826 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:30:56,56 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=iska7-OW9wrw__4kAAWB01iJGbUaFqminU1hwM4MsWc&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4632323841354534443144393437323438333843334643454236323743383935234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:30:56,628 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 93.190.143.23:30023
+05:30:58,296 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-3827275-6385059 "HTTP/1.1 200 OK"
+05:30:58,635 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-9725888-2107806 "HTTP/1.1 200 OK"
+05:30:58,694 urllib3.connectionpool DEBUG http://93.190.143.23:30023 "GET http://httpbin.org/ip HTTP/1.1" 200 30
+05:30:58,695 audible.localization DEBUG found locale for japan
+05:30:58,695 audible.login WARNING Username watawata-rice@vc.tnc.ne.jp is not a valid mail address.
+05:30:58,696 audible.login INFO Login with Amazon Account.
+05:30:59,99 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:30:59,354 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:00,69 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:00,326 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:00,843 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 62.112.9.36:30115
+05:31:01,116 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.3.3:30105
+05:31:02,436 urllib3.connectionpool DEBUG http://62.112.9.36:30115 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:31:02,436 audible.localization DEBUG found locale for japan
+05:31:02,436 audible.login WARNING Username ugougomomochan@yahoo.co.jp is not a valid mail address.
+05:31:02,441 audible.login INFO Login with Amazon Account.
+05:31:02,453 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=ENb9xTfSZd1tuqRnkgJzlT8Er_OdnnqBN323vBh9Bz8&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4241434643464533373339383431363041423644384436324643434134363639234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:02,751 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:03,76 urllib3.connectionpool DEBUG http://151.106.3.3:30105 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:31:03,76 audible.localization DEBUG found locale for japan
+05:31:03,76 audible.login WARNING Username kurokun@ta2.so-net.ne.jp is not a valid mail address.
+05:31:03,91 audible.login INFO Login with Amazon Account.
+05:31:03,732 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:04,518 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.39.107.66:30157
+05:31:04,617 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=73eFvMiUIdtrMWS5UMyVU0NZNqtnfZMnljA1GvN8sf0&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4232433035334641333037333433324439313733323132463034384142393635234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:05,896 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-9841962-6673640 "HTTP/1.1 200 OK"
+05:31:06,238 urllib3.connectionpool DEBUG http://89.39.107.66:30157 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:31:06,240 audible.localization DEBUG found locale for japan
+05:31:06,240 audible.login WARNING Username fact15.0t@ezweb.ne.jp is not a valid mail address.
+05:31:06,240 audible.login INFO Login with Amazon Account.
+05:31:06,420 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-6098669-9343155 "HTTP/1.1 302 Found"
+05:31:06,571 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=z1goLSUGxwuh0CH5kvh36wEo_v_jpZcvHhz0o8DWQqA&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4338373135343942304235433441414342453839443830343746313631444138234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:07,498 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/challenge?ie=UTF8&arb=34fbf6db-62e0-4100-934f-a36c0a7a1b1e "HTTP/1.1 302 Found"
+05:31:07,910 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:08,232 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-4059731-8539144 "HTTP/1.1 200 OK"
+05:31:08,476 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:08,488 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/forgotpassword/reverification?clientContext=358-7420449-9365315&openid.pape.max_auth_age=0&forceMobileLayout=true&accountStatusPolicy=P1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&marketPlaceId=A1QAP3MOU4173J&pageId=amzn_audible_ios&arb=e87cc205-47ee-4b0a-8595-cf1fe4c47e36&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.oa2.response_type=code&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=73eFvMiUIdtrMWS5UMyVU0NZNqtnfZMnljA1GvN8sf0&openid.oa2.scope=device_auth_access&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.oa2.client_id=device%3A4232433035334641333037333433324439313733323132463034384142393635234132435a4a5a474c4b324a4a564d&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 "HTTP/1.1 200 OK"
+05:31:08,892 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:08,935 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=1BraIJK_IfKBbfZ3IGudcIZPclLjFF6bQQ0mNu3uW18&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4634353945424336433334453444353438424231343445333631463145334131234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:09,237 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:09,614 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 91.232.105.217:30121
+05:31:10,269 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:10,996 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 178.32.218.21:30203
+05:31:11,22 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:11,200 urllib3.connectionpool DEBUG http://91.232.105.217:30121 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:31:11,200 audible.localization DEBUG found locale for japan
+05:31:11,200 audible.login INFO Login with Amazon Account.
+05:31:11,466 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-8230976-3549215 "HTTP/1.1 200 OK"
+05:31:11,754 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 217.12.203.219:30257
+05:31:12,178 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:13,154 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:13,810 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=iW8gcxYepLjtTbQ8NMuZ6JeUGRQ45xk8baTeZkXKPIs&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3534433935363232413936333443434541443341424145443546463438464332234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:13,883 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 91.232.105.217:30238
+05:31:16,363 urllib3.connectionpool DEBUG http://91.232.105.217:30238 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:31:16,365 audible.localization DEBUG found locale for japan
+05:31:16,365 audible.login WARNING Username aburabire@cocoa.ocn.ne.jp is not a valid mail address.
+05:31:16,365 audible.login INFO Login with Amazon Account.
+05:31:16,430 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/356-1556011-2952069 "HTTP/1.1 200 OK"
+05:31:18,91 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:19,60 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:19,122 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=RzGCrHoRpiXIWKyjugu9JVYjs5xL3uj749hxdAhG9S0&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3938454244354337354144333445314439383141333741454430454444354346234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:19,804 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 134.119.217.187:30256
+05:31:21,91 urllib3.connectionpool DEBUG http://134.119.217.187:30256 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:31:21,91 audible.localization DEBUG found locale for japan
+05:31:21,91 audible.login INFO Login with Amazon Account.
+05:31:22,91 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-0080663-7797502 "HTTP/1.1 200 OK"
+05:31:23,138 urllib3.connectionpool DEBUG http://217.12.203.219:30257 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:31:23,138 audible.localization DEBUG found locale for japan
+05:31:23,138 audible.login INFO Login with Amazon Account.
+05:31:23,404 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:23,607 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=2m4wNJaLFDFP6vfujK2SGFWH5dKAX6T6fYuT67pqHBY&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3543433246433141443438453443383839323541383537453143463237373942234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:24,385 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:25,115 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 136.243.38.221:30927
+05:31:25,326 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-5102129-3426829 "HTTP/1.1 200 OK"
+05:31:25,917 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:26,890 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:27,614 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 5.9.88.212:30062
+05:31:28,435 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:29,154 urllib3.connectionpool DEBUG http://5.9.88.212:30062 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:31:29,154 audible.localization DEBUG found locale for japan
+05:31:29,154 audible.login WARNING Username pochIpon@asint.jp is not a valid mail address.
+05:31:29,154 audible.login INFO Login with Amazon Account.
+05:31:29,405 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:30,127 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 62.112.9.36:30089
+05:31:30,383 urllib3.connectionpool DEBUG http://178.32.218.21:30203 "GET http://httpbin.org/ip HTTP/1.1" 503 59
+05:31:31,389 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:31,538 urllib3.connectionpool DEBUG http://62.112.9.36:30089 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:31:31,540 audible.localization DEBUG found locale for japan
+05:31:31,540 audible.login INFO Login with Amazon Account.
+05:31:31,863 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=wCzSuuMtefeIItVeQbFO6e-naMHqJ7l5LfUReiMVSg8&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4431393533423638323431343446424538433945343046313645393643344538234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:32,370 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:33,100 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 5.135.161.56:30236
+05:31:33,353 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-3757135-7378713 "HTTP/1.1 200 OK"
+05:31:33,466 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=wEUqv6m4RNmxiEuxR_n_IGfrj2ENMPlBeEVv9d_n_q8&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4537463430384533333845393431383839454433323841373237433736373337234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:33,585 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:34,528 urllib3.connectionpool DEBUG http://5.135.161.56:30236 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:31:34,544 audible.localization DEBUG found locale for japan
+05:31:34,544 audible.login WARNING Username biscuit3@docomo.ne.jp is not a valid mail address.
+05:31:34,544 audible.login INFO Login with Amazon Account.
+05:31:34,567 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:35,263 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-2587746-4395233 "HTTP/1.1 200 OK"
+05:31:35,345 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 178.32.218.21:30147
+05:31:35,912 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:36,868 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:37,297 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=D_4hNdYinW8njvjca2sPfaSh0CZ2j32CtpQSZrhTjj0&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3842443432463236364443343437334139373245394535444146443345354339234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:37,631 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 62.112.11.24:30189
+05:31:37,830 urllib3.connectionpool DEBUG http://178.32.218.21:30147 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:31:37,831 audible.localization DEBUG found locale for japan
+05:31:37,831 audible.login WARNING Username aki_02291@yahoo.co.jp is not a valid mail address.
+05:31:37,832 audible.login INFO Login with Amazon Account.
+05:31:39,122 urllib3.connectionpool DEBUG http://62.112.11.24:30189 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:31:39,122 audible.localization DEBUG found locale for japan
+05:31:39,122 audible.login WARNING Username johnmama11@docomo.ne.jp is not a valid mail address.
+05:31:39,122 audible.login INFO Login with Amazon Account.
+05:31:39,857 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-4407721-9873152 "HTTP/1.1 200 OK"
+05:31:41,193 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:41,966 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=t9h8MobzapG3zf6aeqWi_E5heTVw4GnhPK5xqTPI7Cs&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4144463331453842383134343444374141394438414138313931313033414535234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:43,60 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=k3L7-OW6uJU-DRs2C4d6JBYcw_kFxNLhMLZEB_gV9-g&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3638463731323433454631413433313841373043413745393645463034443344234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:43,179 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:43,963 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 134.119.190.185:31159
+05:31:44,325 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-1791843-2568723 "HTTP/1.1 200 OK"
+05:31:45,420 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-8647073-4810964 "HTTP/1.1 200 OK"
+05:31:45,606 urllib3.connectionpool DEBUG http://134.119.190.185:31159 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:31:45,622 audible.localization DEBUG found locale for japan
+05:31:45,622 audible.login WARNING Username wyrdsister@mail.goo.ne.jp is not a valid mail address.
+05:31:45,622 audible.login INFO Login with Amazon Account.
+05:31:45,682 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:45,974 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:46,959 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:47,256 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:47,754 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 5.135.165.186:30024
+05:31:47,975 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.38.97.134:30043
+05:31:48,748 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=isRYZ4YvVLAK0Vx5nA9nxv_FqYIKxviyE-UWczLINfA&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3432364643454632333641343441413038444142454636363738433842303637234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:49,405 urllib3.connectionpool DEBUG http://89.38.97.134:30043 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:31:49,405 audible.localization DEBUG found locale for japan
+05:31:49,405 audible.login INFO Login with Amazon Account.
+05:31:49,641 urllib3.connectionpool DEBUG http://5.135.165.186:30024 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:31:49,641 audible.localization DEBUG found locale for japan
+05:31:49,641 audible.login WARNING Username ayu.u1022sachi.heart.dai@docomo.ne.jp is not a valid mail address.
+05:31:49,654 audible.login INFO Login with Amazon Account.
+05:31:50,724 urllib3.connectionpool DEBUG http://136.243.38.221:30927 "GET http://httpbin.org/ip HTTP/1.1" 503 60
+05:31:50,898 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-8273792-3192532 "HTTP/1.1 200 OK"
+05:31:51,159 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:51,731 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:52,104 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=aUXpt7jYcwMxq1fZZf4WmO4JlTpHfcldKRfrbcRIN80&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3131423337333438334237353443333638424536384231313239334242354638234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:52,572 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=DKK6AzvMYqPd4vd440XyK0t1O52MtQgSTX5DuwSpN4M&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3333464434463741434639343433433838363335373142394532384444424346234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:31:52,698 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:52,948 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:53,478 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 91.121.109.60:30224
+05:31:53,678 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.38.97.157:30063
+05:31:55,243 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-5750163-0943124 "HTTP/1.1 200 OK"
+05:31:55,259 urllib3.connectionpool DEBUG http://91.121.109.60:30224 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:31:55,259 audible.localization DEBUG found locale for japan
+05:31:55,259 audible.login WARNING Username pinkcat4997_0303@yahoo.co.jp is not a valid mail address.
+05:31:55,259 audible.login INFO Login with Amazon Account.
+05:31:56,502 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:31:57,153 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/356-8509215-8340351 "HTTP/1.1 200 OK"
+05:31:57,153 urllib3.connectionpool DEBUG http://89.38.97.157:30063 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:31:57,153 audible.localization DEBUG found locale for japan
+05:31:57,153 audible.login WARNING Username princess.yumeno.0317@gmail.com is not a valid mail address.
+05:31:57,160 audible.login INFO Login with Amazon Account.
+05:31:58,280 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:31:59,1 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.4.123:30139
+05:31:59,313 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=4ehuedx58CFUl4pX-rRhc9qw4bXKMu0NZYTOTk3D5QM&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3842413042453842393838453439423338463638363743384137434439444142234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:32:00,533 urllib3.connectionpool DEBUG http://151.106.4.123:30139 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:32:00,533 audible.localization DEBUG found locale for japan
+05:32:00,533 audible.login WARNING Username r877632fd7mbm@docomo.ne.jp is not a valid mail address.
+05:32:00,538 audible.login INFO Login with Amazon Account.
+05:32:00,966 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:01,927 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:02,651 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.4.177:30072
+05:32:02,959 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-4121120-3417115 "HTTP/1.1 200 OK"
+05:32:03,680 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=8D0fwMAF30NYDjlGVl_R1XEWcgeG_Lpo7sMVw9Y2Jys&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3932344233353230383842443432413542363542353032324342313739463431234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:32:04,477 urllib3.connectionpool DEBUG http://151.106.4.177:30072 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:32:04,477 audible.localization DEBUG found locale for japan
+05:32:04,477 audible.login WARNING Username ayumi_m681@yahoo.co.jp is not a valid mail address.
+05:32:04,488 audible.login INFO Login with Amazon Account.
+05:32:05,12 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-1836521-6677133 "HTTP/1.1 302 Moved Temporarily"
+05:32:05,841 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/challenge?ie=UTF8&arb=67d41070-7e3e-45aa-afb5-df9e272b91c8 "HTTP/1.1 302 Moved Temporarily"
+05:32:06,208 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:06,843 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/forgotpassword/reverification?clientContext=357-1530846-3580845&openid.pape.max_auth_age=0&forceMobileLayout=true&accountStatusPolicy=P1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&marketPlaceId=A1QAP3MOU4173J&pageId=amzn_audible_ios&arb=e36178d0-509b-4349-be78-0a599bde18d7&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.oa2.response_type=code&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=8D0fwMAF30NYDjlGVl_R1XEWcgeG_Lpo7sMVw9Y2Jys&openid.oa2.scope=device_auth_access&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.oa2.client_id=device%3A3932344233353230383842443432413542363542353032324342313739463431234132435a4a5a474c4b324a4a564d&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 "HTTP/1.1 200 OK"
+05:32:06,889 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:07,157 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:07,392 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=9Atp8eTqnNaMyJqBmnoxp4PKDJtcHjmw9qE3_hfpdm8&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4630314438444538343239303433304642434541324542323035433030324532234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:32:07,532 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=BkufkF178KG9gp9qLgbmrI8N-cjLRPszD_VC1r-QyKg&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3145343843433937374436353442333139343932463934304636463744443146234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:32:07,889 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 178.32.218.54:30061
+05:32:08,440 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:09,177 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 185.14.29.129:30229
+05:32:09,317 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-6143456-2944812 "HTTP/1.1 200 OK"
+05:32:10,24 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:10,162 urllib3.connectionpool DEBUG http://178.32.218.54:30061 "GET http://httpbin.org/ip HTTP/1.1" 503 59
+05:32:10,663 urllib3.connectionpool DEBUG http://185.14.29.129:30229 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:32:10,663 audible.localization DEBUG found locale for japan
+05:32:10,663 audible.login WARNING Username shiho3544@docomo.ne.jp is not a valid mail address.
+05:32:10,663 audible.login INFO Login with Amazon Account.
+05:32:10,993 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:11,166 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:11,447 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-4084952-5687660 "HTTP/1.1 200 OK"
+05:32:11,723 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 148.251.46.184:30047
+05:32:12,119 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:12,850 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 5.135.165.186:30089
+05:32:13,142 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:13,217 urllib3.connectionpool DEBUG http://148.251.46.184:30047 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:32:13,219 audible.localization DEBUG found locale for japan
+05:32:13,219 audible.login WARNING Username ueno1013@triton.ocn.ne.jp is not a valid mail address.
+05:32:13,219 audible.login INFO Login with Amazon Account.
+05:32:13,715 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=sD55VyefelKUZJQkfbUorGDK6LgnqmZpuKT8l-mt9E0&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4131453642314237314243353430443538324330343430363933353139333244234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:32:14,685 urllib3.connectionpool DEBUG http://5.135.165.186:30089 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:32:14,685 audible.localization DEBUG found locale for japan
+05:32:14,685 audible.login INFO Login with Amazon Account.
+05:32:14,922 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:15,651 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.4.179:30193
+05:32:15,829 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=pROjmmuCD-t-ZtGo-FpaxHiuo8Yil0JIW0_fF_qxuN8&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3843323230373035433032333434383839304343333737363531453044333137234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:32:15,954 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-8042051-6927657 "HTTP/1.1 200 OK"
+05:32:16,196 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:17,144 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:17,238 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-9500152-8889868 "HTTP/1.1 200 OK"
+05:32:17,483 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:17,873 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 178.63.0.115:30234
+05:32:18,773 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=94kdQau4L0Nfv8ZhjvBBVr35XbCq7ifgU2Ug7zOo9Z4&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4537424330434143453133413437454242374437334531393339344243313432234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:32:19,8 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:19,477 urllib3.connectionpool DEBUG http://178.63.0.115:30234 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:32:19,477 audible.localization DEBUG found locale for japan
+05:32:19,483 audible.login WARNING Username natukt@yahoo.co.jp is not a valid mail address.
+05:32:19,483 audible.login INFO Login with Amazon Account.
+05:32:19,605 urllib3.connectionpool DEBUG http://151.106.4.179:30193 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:32:19,606 audible.localization DEBUG found locale for japan
+05:32:19,606 audible.login WARNING Username kiaiwo2008made@yahoo.co.jp is not a valid mail address.
+05:32:19,606 audible.login INFO Login with Amazon Account.
+05:32:19,743 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 195.123.246.146:30208
+05:32:21,388 urllib3.connectionpool DEBUG http://195.123.246.146:30208 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:32:21,388 audible.localization DEBUG found locale for japan
+05:32:21,388 audible.login WARNING Username selfmedicom@wing.ocn.ne.jp is not a valid mail address.
+05:32:21,392 audible.login INFO Login with Amazon Account.
+05:32:21,800 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-7086845-1798002 "HTTP/1.1 200 OK"
+05:32:22,48 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:23,28 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:23,75 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=wdsrmD82w1cHqqJME6E2w2KAt8_qMqo0C-aQI04SUB8&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4537333338383844364443303431363138344330413733443042453032424433234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:32:23,757 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.39.105.72:30022
+05:32:24,549 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=_fIuYZWu-y_uj18uAwjeBseK6qU0a6Hf49bQyfaX56Y&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3744353134413745313039343445334141333942444642334639343041433344234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:32:24,888 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-3956684-7522133 "HTTP/1.1 200 OK"
+05:32:24,888 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:25,121 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:25,422 urllib3.connectionpool DEBUG http://89.39.105.72:30022 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:32:25,423 audible.localization DEBUG found locale for japan
+05:32:25,423 audible.login INFO Login with Amazon Account.
+05:32:25,852 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:26,90 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:26,571 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 62.112.9.36:30160
+05:32:26,745 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-6771350-3525557 "HTTP/1.1 200 OK"
+05:32:26,815 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.38.97.117:30214
+05:32:27,419 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:28,28 urllib3.connectionpool DEBUG http://89.38.97.117:30214 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:32:28,28 audible.localization DEBUG found locale for japan
+05:32:28,28 audible.login WARNING Username oza-m@hotmail.co.jp is not a valid mail address.
+05:32:28,38 audible.login INFO Login with Amazon Account.
+05:32:28,262 urllib3.connectionpool DEBUG http://62.112.9.36:30160 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:32:28,262 audible.localization DEBUG found locale for japan
+05:32:28,262 audible.login WARNING Username yumetorino1585@yahoo.co.jp is not a valid mail address.
+05:32:28,262 audible.login INFO Login with Amazon Account.
+05:32:29,217 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:29,937 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:30,225 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:30,310 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:30,325 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:32:30,914 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:32:31,295 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:18,311 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:18,313 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:18,338 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:18,364 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:19,203 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:19,219 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:19,219 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:19,250 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:19,856 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 185.14.29.42:30049
+05:46:19,878 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.6.61:30021
+05:46:19,888 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.39.105.72:30273
+05:46:19,923 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 176.31.182.19:30106
+05:46:21,156 urllib3.connectionpool DEBUG http://151.106.6.61:30021 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:46:21,156 audible.localization DEBUG found locale for japan
+05:46:21,164 audible.login WARNING Username musashi-love.and.peace..@docomo.ne.jp is not a valid mail address.
+05:46:21,164 audible.auth INFO logged in to Audible as musashi-love.and.peace..@docomo.ne.jp
+05:46:21,166 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:21,347 urllib3.connectionpool DEBUG http://89.39.105.72:30273 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:46:21,349 audible.localization DEBUG found locale for japan
+05:46:21,349 audible.login WARNING Username miecyan04@yahoo.co.jp is not a valid mail address.
+05:46:21,349 audible.auth INFO logged in to Audible as miecyan04@yahoo.co.jp
+05:46:21,351 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:21,625 urllib3.connectionpool DEBUG http://176.31.182.19:30106 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:46:21,625 audible.localization DEBUG found locale for japan
+05:46:21,633 audible.login WARNING Username miu.o6o1.a-t.baby@docomo.ne.jp is not a valid mail address.
+05:46:21,633 audible.auth INFO logged in to Audible as miu.o6o1.a-t.baby@docomo.ne.jp
+05:46:21,635 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:22,9 urllib3.connectionpool DEBUG http://185.14.29.42:30049 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:46:22,11 audible.localization DEBUG found locale for japan
+05:46:22,11 audible.login WARNING Username mii-3-0314@softbank.ne.jp is not a valid mail address.
+05:46:22,12 audible.auth INFO logged in to Audible as mii-3-0314@softbank.ne.jp
+05:46:22,13 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:22,48 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:22,235 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:22,525 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:22,704 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.39.105.72:30236
+05:46:22,894 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:22,896 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 109.236.90.99:30152
+05:46:23,188 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 195.123.246.146:30116
+05:46:23,550 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.6.85:30010
+05:46:24,172 urllib3.connectionpool DEBUG http://109.236.90.99:30152 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:46:24,172 audible.localization DEBUG found locale for japan
+05:46:24,183 audible.login INFO Login with Amazon Account.
+05:46:25,31 urllib3.connectionpool DEBUG http://195.123.246.146:30116 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:46:25,31 audible.localization DEBUG found locale for japan
+05:46:25,31 audible.login INFO Login with Amazon Account.
+05:46:25,258 urllib3.connectionpool DEBUG http://151.106.6.85:30010 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:46:25,261 audible.localization DEBUG found locale for japan
+05:46:25,262 audible.login INFO Login with Amazon Account.
+05:46:27,187 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=pgMxedcMndCe6Ty2F2IgXEkbDcQ6oXkAL6_gcQlkbTQ&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4642443341353343413841363441304641433130443445453044303645384445234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:46:27,984 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=0FQx7MelMF6zt49ZV5dF47NAVegZnSkads4WVGz3J4s&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3639353934434134324643363446413741434432364445413638343630444444234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:46:28,562 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=6cC2MqVzejj3CdbO8R3yTb9lPYvCVV_zN8s1HCEMnbo&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4444373639373531433038453439453138414135433344344332324345383234234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:46:29,828 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-7350075-7526255 "HTTP/1.1 302 Moved Temporarily"
+05:46:30,343 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/357-6434287-9088062 "HTTP/1.1 200 OK"
+05:46:30,625 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/challenge?ie=UTF8&arb=bffb5c34-596f-4ad0-b12f-0daf253c86cf "HTTP/1.1 302 Moved Temporarily"
+05:46:30,657 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-9826033-2169944 "HTTP/1.1 200 OK"
+05:46:31,240 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:31,527 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:31,766 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/forgotpassword/reverification?clientContext=358-1306353-2631654&openid.pape.max_auth_age=0&forceMobileLayout=true&accountStatusPolicy=P1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&marketPlaceId=A1QAP3MOU4173J&pageId=amzn_audible_ios&arb=a0ed55c5-f6af-4b16-a7a9-ed0ff27362aa&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.oa2.response_type=code&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=6cC2MqVzejj3CdbO8R3yTb9lPYvCVV_zN8s1HCEMnbo&openid.oa2.scope=device_auth_access&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.oa2.client_id=device%3A4444373639373531433038453439453138414135433344344332324345383234234132435a4a5a474c4b324a4a564d&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 "HTTP/1.1 200 OK"
+05:46:31,800 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:32,125 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:32,406 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:32,672 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:32,790 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 185.14.29.129:30160
+05:46:33,77 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.39.105.72:30053
+05:46:33,341 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 176.9.84.135:30165
+05:46:34,31 urllib3.connectionpool DEBUG http://185.14.29.129:30160 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:46:34,31 audible.localization DEBUG found locale for japan
+05:46:34,45 audible.login WARNING Username sakurakomachi-kazu.oyasumi0514@hotmail.co.jp is not a valid mail address.
+05:46:34,45 audible.auth INFO logged in to Audible as sakurakomachi-kazu.oyasumi0514@hotmail.co.jp
+05:46:34,47 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:34,922 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:35,589 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 5.135.165.186:30004
+05:46:38,828 urllib3.connectionpool DEBUG http://5.135.165.186:30004 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:46:38,843 audible.localization DEBUG found locale for japan
+05:46:38,843 audible.login WARNING Username fact15.0t@ezweb.ne.jp is not a valid mail address.
+05:46:38,843 audible.auth INFO logged in to Audible as fact15.0t@ezweb.ne.jp
+05:46:38,845 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:38,925 urllib3.connectionpool DEBUG http://89.39.105.72:30053 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:46:38,927 audible.localization DEBUG found locale for japan
+05:46:38,927 audible.login WARNING Username junkunplus@yahoo.co.jp is not a valid mail address.
+05:46:38,927 audible.auth INFO logged in to Audible as junkunplus@yahoo.co.jp
+05:46:38,929 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:39,121 urllib3.connectionpool DEBUG http://176.9.84.135:30165 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:46:39,122 audible.localization DEBUG found locale for japan
+05:46:39,123 audible.login WARNING Username klugfrau0518@hotmail.co.jp is not a valid mail address.
+05:46:39,123 audible.auth INFO logged in to Audible as klugfrau0518@hotmail.co.jp
+05:46:39,125 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:39,734 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:39,812 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:40,9 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:40,457 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.4.123:30253
+05:46:40,539 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.38.97.171:30024
+05:46:40,725 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.38.97.134:30133
+05:46:41,343 urllib3.connectionpool DEBUG http://89.39.105.72:30236 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:46:41,343 audible.localization DEBUG found locale for japan
+05:46:41,356 audible.login WARNING Username t.r.i.061809190925@gmail.com is not a valid mail address.
+05:46:41,356 audible.auth INFO logged in to Audible as t.r.i.061809190925@gmail.com
+05:46:41,358 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:42,234 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:42,297 urllib3.connectionpool DEBUG http://89.38.97.171:30024 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:46:42,297 audible.localization DEBUG found locale for japan
+05:46:42,297 audible.login WARNING Username chartr28@cl.cilas.net is not a valid mail address.
+05:46:42,305 audible.auth INFO logged in to Audible as chartr28@cl.cilas.net
+05:46:42,306 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:42,562 urllib3.connectionpool DEBUG http://89.38.97.134:30133 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:46:42,562 audible.localization DEBUG found locale for japan
+05:46:42,562 audible.login WARNING Username mikekomomo@yahoo.co.jp is not a valid mail address.
+05:46:42,562 audible.auth INFO logged in to Audible as mikekomomo@yahoo.co.jp
+05:46:42,575 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:42,964 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.38.97.117:30049
+05:46:43,186 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:43,453 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:43,875 urllib3.connectionpool DEBUG http://89.38.97.117:30049 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:46:43,875 audible.localization DEBUG found locale for japan
+05:46:43,875 audible.login INFO Login with Amazon Account.
+05:46:43,904 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 178.32.217.113:30250
+05:46:44,178 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 185.14.29.42:30062
+05:46:45,234 urllib3.connectionpool DEBUG http://178.32.217.113:30250 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:46:45,234 audible.localization DEBUG found locale for japan
+05:46:45,234 audible.login WARNING Username musainu930@yahoo.co.jp is not a valid mail address.
+05:46:45,234 audible.auth INFO logged in to Audible as musainu930@yahoo.co.jp
+05:46:45,251 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:45,269 urllib3.connectionpool DEBUG http://151.106.4.123:30253 "GET http://httpbin.org/ip HTTP/1.1" 503 59
+05:46:45,471 urllib3.connectionpool DEBUG http://185.14.29.42:30062 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:46:45,473 audible.localization DEBUG found locale for japan
+05:46:45,473 audible.login WARNING Username sizu@softbank.ne.jg is not a valid mail address.
+05:46:45,473 audible.auth INFO logged in to Audible as sizu@softbank.ne.jg
+05:46:45,474 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:46,78 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=ZBmMlr8_qMcfIwWxBWJw50ZnqiDb44vw1zgmZAVLDkE&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3943394431433432423638333433393241393734433636323232444541413442234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:46:46,125 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:46,282 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:46,349 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:46,856 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 37.59.55.35:30016
+05:46:47,64 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 148.251.46.184:30208
+05:46:47,171 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:47,890 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 212.8.253.150:30009
+05:46:48,625 urllib3.connectionpool DEBUG http://148.251.46.184:30208 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:46:48,625 audible.localization DEBUG found locale for japan
+05:46:48,640 audible.login WARNING Username ugougomomochan@yahoo.co.jp is not a valid mail address.
+05:46:48,640 audible.auth INFO logged in to Audible as ugougomomochan@yahoo.co.jp
+05:46:48,642 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:49,532 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:50,253 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 134.119.206.127:31088
+05:46:50,657 urllib3.connectionpool DEBUG http://212.8.253.150:30009 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:46:50,657 audible.localization DEBUG found locale for japan
+05:46:50,657 audible.login WARNING Username aburabire@cocoa.ocn.ne.jp is not a valid mail address.
+05:46:50,672 audible.auth INFO logged in to Audible as aburabire@cocoa.ocn.ne.jp
+05:46:50,674 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:51,265 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/356-1431952-8882203 "HTTP/1.1 200 OK"
+05:46:51,546 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:51,796 urllib3.connectionpool DEBUG http://134.119.206.127:31088 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:46:51,796 audible.localization DEBUG found locale for japan
+05:46:51,805 audible.login INFO Login with Amazon Account.
+05:46:52,265 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 5.9.88.212:30217
+05:46:53,812 urllib3.connectionpool DEBUG http://5.9.88.212:30217 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:46:53,812 audible.localization DEBUG found locale for japan
+05:46:53,812 audible.login WARNING Username pinkcat4997_0303@yahoo.co.jp is not a valid mail address.
+05:46:53,825 audible.auth INFO logged in to Audible as pinkcat4997_0303@yahoo.co.jp
+05:46:53,827 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:54,703 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:54,765 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=i6ljUop8QMqiuy5FjKMFenqP_73OPtfHzehN3JQrl-A&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3946304234394231333242413437394438443833393132423645353332414542234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:46:55,430 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 178.32.216.223:30234
+05:46:55,952 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:56,578 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/355-3375721-5006327 "HTTP/1.1 200 OK"
+05:46:56,829 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:56,853 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:57,218 urllib3.connectionpool DEBUG http://178.32.216.223:30234 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:46:57,218 audible.localization DEBUG found locale for japan
+05:46:57,218 audible.login INFO Login with Amazon Account.
+05:46:57,570 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.38.97.117:30055
+05:46:57,724 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:58,435 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 195.123.245.181:30086
+05:46:58,828 urllib3.connectionpool DEBUG http://89.38.97.117:30055 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:46:58,843 audible.localization DEBUG found locale for japan
+05:46:58,843 audible.login WARNING Username masaru.fuse.nd@docomo-support.co.jp is not a valid mail address.
+05:46:58,845 audible.auth INFO logged in to Audible as masaru.fuse.nd@docomo-support.co.jp
+05:46:58,846 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:46:59,718 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:46:59,937 urllib3.connectionpool DEBUG http://195.123.245.181:30086 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:46:59,937 audible.localization DEBUG found locale for japan
+05:46:59,937 audible.login INFO Login with Amazon Account.
+05:47:00,448 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 94.26.249.236:30558
+05:47:00,781 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=v1wrRbNW07-RZBcm_2vvk3jPiCQQ6RSWUnQa3AYJsvk&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3534443430463735443445443436313338303739313245423243423841443732234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:47:03,297 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=KIQD6cxjC9A7ebrDXXkdx3K7E189bmPzWNqwtW21yok&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3243323045353241373231363446423139303434363036343743443246423431234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:47:03,632 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/356-8106413-0874853 "HTTP/1.1 200 OK"
+05:47:04,428 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:47:04,468 httpx._client DEBUG HTTP Request: POST https://www.amazon.co.jp/ap/signin/358-6792254-6406701 "HTTP/1.1 200 OK"
+05:47:04,563 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:47:04,699 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:47:05,296 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:47:05,451 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:47:05,578 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:47:05,968 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 185.14.28.139:30252
+05:47:06,112 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 217.12.203.52:30128
+05:47:06,235 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.4.121:30260
+05:47:07,564 urllib3.connectionpool DEBUG http://185.14.28.139:30252 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:47:07,566 audible.localization DEBUG found locale for japan
+05:47:07,566 audible.login INFO Login with Amazon Account.
+05:47:07,591 urllib3.connectionpool DEBUG http://217.12.203.52:30128 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+05:47:07,592 audible.localization DEBUG found locale for japan
+05:47:07,592 audible.login INFO Login with Amazon Account.
+05:47:08,125 urllib3.connectionpool DEBUG http://151.106.4.121:30260 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:47:08,125 audible.localization DEBUG found locale for japan
+05:47:08,125 audible.login WARNING Username johnmama11@docomo.ne.jp is not a valid mail address.
+05:47:08,131 audible.auth INFO logged in to Audible as johnmama11@docomo.ne.jp
+05:47:08,132 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:47:09,15 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:47:09,676 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 62.112.9.36:30119
+05:47:10,265 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=p-rGtJM7PF4IH2-oc-FB3RDsJxzNEA41t9h_6N5h698&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4232384234373832363633333434444241424146394338414638333641334446234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:47:10,437 urllib3.connectionpool DEBUG http://37.59.55.35:30016 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:47:10,437 audible.localization DEBUG found locale for japan
+05:47:10,439 audible.login INFO Login with Amazon Account.
+05:47:10,652 httpx._client DEBUG HTTP Request: GET https://www.amazon.co.jp/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=9VE3-WJ69zn7bIIcRJJg37ZO8SvAOJLgnsPYsET-9YQ&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_jp&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4434303237423832394135333445443239443742434539364341344231413735234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=A1QAP3MOU4173J&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:47:11,980 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:47:12,680 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:47:12,851 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:51:18,312 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:51:19,206 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:51:19,859 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 212.8.253.150:30148
+05:51:21,293 urllib3.connectionpool DEBUG http://212.8.253.150:30148 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:51:21,293 audible.localization DEBUG found locale for united_states
+05:51:21,293 audible.login INFO Login with Amazon Account.
+05:51:24,292 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=3qECX9x5bMB5LPMd9A9PIfKKHQKeAif3BqXK4W77Ra4&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3730324639383732303237383434333939413837434344374232454637363634234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:51:25,854 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/144-6975421-5654652 "HTTP/1.1 200 OK"
+05:53:13,947 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:53:14,853 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:53:15,507 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 109.236.90.99:30144
+05:53:16,775 urllib3.connectionpool DEBUG http://109.236.90.99:30144 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+05:53:16,775 audible.localization DEBUG found locale for united_states
+05:53:16,775 audible.login INFO Login with Amazon Account.
+05:53:20,187 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=vTKHaFbLlleczwSKiW6o0Z67qfCouuioEKuJMfk9vj0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3641383835344541354243453445383938453439464541424437384338333235234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:53:21,963 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/145-5972737-8088637 "HTTP/1.1 200 OK"
+05:54:52,865 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:54:53,778 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:54:54,442 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.39.105.72:30202
+05:54:56,336 urllib3.connectionpool DEBUG http://89.39.105.72:30202 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:54:56,336 audible.localization DEBUG found locale for united_states
+05:54:56,336 audible.login INFO Login with Amazon Account.
+05:54:59,740 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=IRq7IwusOKCST4jHz2Fwviwc6jfJ3gEfsPWkCpchwoM&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4139443736433538463341463437443942414134313633423844313341414546234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:55:02,404 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/139-6850421-7295737 "HTTP/1.1 200 OK"
+05:55:03,554 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): opfcaptcha-prod.s3.amazonaws.com:443
+05:55:04,112 urllib3.connectionpool DEBUG https://opfcaptcha-prod.s3.amazonaws.com:443 "GET /85083c6f10e24d88970248576d641e16.jpg?AWSAccessKeyId=AKIA5WBBRBBB2Z3DTKHS&Expires=1658124001&Signature=y6MAHQYC%2FrlrEieR3m2VHbhFEkM%3D HTTP/1.1" 200 4819
+05:55:05,961 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 302 Moved Temporarily"
+05:55:06,742 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/maplanding?openid.assoc_handle=amzn_audible_ios_us&openid.claimed_id=https%3A%2F%2Fwww.amazon.com%2Fap%2Fid%2Famzn1.account.AFPGVMPSFAZI3YCMS2OHQNIAGQLQ&openid.identity=https%3A%2F%2Fwww.amazon.com%2Fap%2Fid%2Famzn1.account.AFPGVMPSFAZI3YCMS2OHQNIAGQLQ&openid.mode=id_res&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.op_endpoint=https%3A%2F%2Fwww.amazon.com%2Fap%2Fsignin&openid.response_nonce=2022-07-18T05%3A55%3A05Z-897051674696954043&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.signed=assoc_handle%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Cns.pape%2Cpape.auth_policies%2Cpape.auth_time%2Coa2.authorization_code%2Ccaptcha_verified%2Csigned&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.auth_policies=http%3A%2F%2Fschemas.openid.net%2Fpape%2Fpolicies%2F2007%2F06%2Fnone&openid.pape.auth_time=2022-07-18T05%3A55%3A05Z&openid.sig=pcGH7n1QuepH1fevALqCN%2FRuuLWedu8JpiG1co4WDxg%3D&serial=&openid.oa2.authorization_code=ANbQioOKrfGfxzBKuZtzZatb&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&captcha_verified=1& "HTTP/1.1 404 Not Found"
+05:55:10,461 audible.login ERROR Error message: We're sorry. The Web address you entered is not a functioning page on our site
+05:55:10,463 audible.login DEBUG Login confirmed for 6061110@gmail.com
+05:55:10,465 audible.auth INFO logged in to Audible as 6061110@gmail.com
+05:55:16,127 httpx._client DEBUG HTTP Request: POST https://api.amazon.com/auth/register "HTTP/1.1 200 OK"
+05:55:16,129 audible.auth INFO registered Audible device
+05:55:16,129 asyncio DEBUG Using proactor: IocpProactor
+05:55:16,130 asyncio DEBUG Using proactor: IocpProactor
+05:55:16,153 root INFO \u6570\u636e\u5e93\u8fde\u63a5\u6210\u529f
+05:55:16,154 root INFO \u6210\u529f\u66f4\u65b0\u4e00\u6761\u8bb0\u5f55 sqlSelectUser
+05:55:16,154 root INFO https://www.amazon.com/a/addresses
+05:55:16,156 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+05:55:16,523 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /a/addresses HTTP/1.1" 302 None
+05:55:16,740 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /a/addresses/unableToProcess HTTP/1.1" 200 None
+05:55:17,55 root INFO addresses
+05:55:17,55 root INFO \u6210\u529f\u66f4\u65b0\u4e00\u6761\u8bb0\u5f55 sqlInsertReviewAddress
+05:55:17,55 root INFO False
+05:55:17,55 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlSelectUser
+05:55:17,55 root INFO https://www.amazon.com/gp/css/gc/balance?ref_=ya_d_c_gc
+05:55:17,69 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+05:55:17,414 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /gp/css/gc/balance?ref_=ya_d_c_gc HTTP/1.1" 200 None
+05:55:17,744 root INFO US$0.00
+05:55:17,744 root INFO \u6210\u529f\u66f4\u65b0\u4e00\u6761\u8bb0\u5f55 sqlInsertReviewBalance
+05:55:17,745 root INFO balance
+05:55:17,745 root INFO False
+05:55:17,745 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlSelectUser
+05:55:17,745 root INFO https://www.amazon.com/cpe/yourpayments/wallet?ref_=ya_d_c_pmt_mpo
+05:55:17,747 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+05:55:18,601 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /cpe/yourpayments/wallet?ref_=ya_d_c_pmt_mpo HTTP/1.1" 200 None
+05:55:19,66 root INFO 6061110@gmail.com_yourpayments/wallet.html
+05:55:19,81 root INFO \u4e9a\u9a6c\u900a\u793c\u54c1\u5361
+05:55:19,81 root INFO \u4f59\u989d\uff1a US$0.00
+05:55:19,81 root INFO None
+05:55:19,82 root INFO \u6210\u529f\u66f4\u65b0\u4e00\u6761\u8bb0\u5f55 sqlInsertReviewWallet
+05:55:19,82 root INFO yourpayments/wallet
+05:55:19,83 root INFO False
+05:55:19,83 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlSelectUser
+05:55:19,83 root INFO https://www.amazon.com/review/review-your-purchases/listing
+05:55:19,85 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+05:55:19,931 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /review/review-your-purchases/listing HTTP/1.1" 200 None
+05:55:20,259 root INFO \u6210\u529f\u66f4\u65b0\u4e00\u6761\u8bb0\u5f55 sqlInsertReviewPurchases
+05:55:20,259 root INFO getReviewPurchasesHtml
+05:55:20,260 root INFO True
+05:55:20,264 root INFO \u6210\u529f\u66f4\u65b0\u4e00\u6761\u8bb0\u5f55 sqlInsertReviewWallet
+05:58:56,453 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:58:57,333 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:58:58,61 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 91.232.105.140:30090
+05:58:59,895 urllib3.connectionpool DEBUG http://91.232.105.140:30090 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+05:58:59,895 audible.localization DEBUG found locale for united_states
+05:58:59,895 audible.login INFO Login with Amazon Account.
+05:59:02,36 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=EcUARCKwa3e8h8F_DhPyrAn6XuvLlAoodDZmZr1-4_A&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3734313243383131323446383436434138453432324542344439373132364334234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:59:03,787 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/139-5682388-6245364 "HTTP/1.1 200 OK"
+05:59:31,178 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:59:32,82 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:59:32,747 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 5.135.164.151:30221
+05:59:45,691 urllib3.connectionpool DEBUG http://5.135.164.151:30221 "GET http://httpbin.org/ip HTTP/1.1" 503 59
+05:59:46,694 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+05:59:47,566 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+05:59:48,233 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.6.61:30000
+05:59:49,769 urllib3.connectionpool DEBUG http://151.106.6.61:30000 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+05:59:49,769 audible.localization DEBUG found locale for united_states
+05:59:49,773 audible.login INFO Login with Amazon Account.
+05:59:53,866 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=aNRghcmN656Bf2FsifVMvj1Wu4N4EL-p1gNynM7RScE&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4642353139353434453843463441323541333837393143343934364633373832234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+05:59:55,612 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/142-3990697-6814118 "HTTP/1.1 200 OK"
+06:00:33,509 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:00:34,769 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:00:35,492 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.39.107.66:30181
+06:00:56,847 urllib3.connectionpool DEBUG http://89.39.107.66:30181 "GET http://httpbin.org/ip HTTP/1.1" 503 58
+06:00:57,849 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:00:58,721 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:00:59,451 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 91.232.105.140:30084
+06:01:02,753 urllib3.connectionpool DEBUG http://91.232.105.140:30084 "GET http://httpbin.org/ip HTTP/1.1" 200 30
+06:01:02,753 audible.localization DEBUG found locale for united_states
+06:01:02,764 audible.login INFO Login with Amazon Account.
+06:01:06,924 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=83TfELm5UKvGcR9Dnx8GaqQGbKdADFHh1uMtfVgNr9g&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4636413545464637373143413441383742393736374439323737424346303146234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:01:10,409 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/144-2233896-5479332 "HTTP/1.1 200 OK"
+06:02:33,981 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:02:34,861 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:02:35,586 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 5.135.161.56:30277
+06:02:37,120 urllib3.connectionpool DEBUG http://5.135.161.56:30277 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+06:02:37,121 audible.localization DEBUG found locale for united_states
+06:02:37,122 audible.login INFO Login with Amazon Account.
+06:02:39,673 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=FkS5pcBJtGaeH6ZlDdaLJZ_v1bu1YpGeXR1Frqy_qGo&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3941463437423842334431383437433542324346303537374144394438303635234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:02:42,258 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/141-6369108-7479011 "HTTP/1.1 200 OK"
+06:03:51,712 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:03:52,594 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:03:53,307 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 62.112.9.36:30148
+06:03:54,969 urllib3.connectionpool DEBUG http://62.112.9.36:30148 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+06:03:54,969 audible.localization DEBUG found locale for united_states
+06:03:54,979 audible.login INFO Login with Amazon Account.
+06:03:58,344 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=M2LbSQq4HF7cktDfxL2qpJgdX8m3fepocNd7tavcfmY&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4144433342394337323530423437353338314232433931453536353042463545234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:04:00,344 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/146-0204046-2226075 "HTTP/1.1 200 OK"
+06:04:17,30 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:04:17,938 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:04:18,596 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 217.12.202.89:30066
+06:04:20,203 urllib3.connectionpool DEBUG http://217.12.202.89:30066 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+06:04:20,203 audible.localization DEBUG found locale for united_states
+06:04:20,209 audible.login INFO Login with Amazon Account.
+06:04:22,906 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=hEkBgW-575scyt2hJJACmTULciZczfsByC5Z3sVJgn0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3638353444343538423843413444304241343841413535353434383239343045234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:04:25,16 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/133-8766854-2673234 "HTTP/1.1 200 OK"
+06:04:47,312 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:04:48,203 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:04:48,875 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 185.14.29.42:30008
+06:04:50,843 urllib3.connectionpool DEBUG http://185.14.29.42:30008 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+06:04:50,843 audible.localization DEBUG found locale for united_states
+06:04:50,856 audible.login INFO Login with Amazon Account.
+06:04:53,843 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=0PeJZ4BghOA3ijsnk7tV-yaPltemh5SILeiYr9bOO5k&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4339463632463535444338433443443942354631443135364530374331364443234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:04:57,719 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/145-5303718-2029357 "HTTP/1.1 200 OK"
+06:05:19,817 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:05:20,734 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:05:21,466 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 194.88.106.68:30253
+06:05:22,874 urllib3.connectionpool DEBUG http://194.88.106.68:30253 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+06:05:22,874 audible.localization DEBUG found locale for united_states
+06:05:22,886 audible.login INFO Login with Amazon Account.
+06:05:24,936 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=xphhhEiNDBOEYkX1RWxQTIilVwGLWmZJssViXUgjfeA&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4546394646334139383938463432383742424645463845453941303938463344234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:05:27,750 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/134-1062047-5098944 "HTTP/1.1 200 OK"
+06:05:50,612 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:05:51,499 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:05:52,235 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 95.216.11.176:30232
+06:05:54,46 urllib3.connectionpool DEBUG http://95.216.11.176:30232 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+06:05:54,46 audible.localization DEBUG found locale for united_states
+06:05:54,58 audible.login INFO Login with Amazon Account.
+06:05:57,58 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=0SQ-TWmjIHUaSQULInB86qgKhO4O927EQwkzRnGiQ1g&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4144374633313942303839453439354339324544393732344631323145414238234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:05:59,280 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/134-3302731-4700069 "HTTP/1.1 200 OK"
+06:07:13,164 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:07:14,60 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:07:14,717 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.5.111:30145
+06:07:16,216 urllib3.connectionpool DEBUG http://151.106.5.111:30145 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+06:07:16,216 audible.localization DEBUG found locale for united_states
+06:07:16,227 audible.login INFO Login with Amazon Account.
+06:07:18,572 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=KTqWHkbnqRmxdKeIanl6J_7sIrlB3gLvnAOyFvkAinw&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4235443031394431373045413437383442423438433730303945344644463743234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:07:21,148 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/131-0625982-3194013 "HTTP/1.1 200 OK"
+06:08:04,490 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:08:05,372 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:08:06,28 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 89.39.107.66:30184
+06:08:08,403 urllib3.connectionpool DEBUG http://89.39.107.66:30184 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+06:08:08,403 audible.localization DEBUG found locale for united_states
+06:08:08,416 audible.login INFO Login with Amazon Account.
+06:08:18,747 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=81Dd3JQvF7FABKVv_HFiVeIzFmLLGK-k4GwD81lkypM&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3546334533323537413732453441424341303241363036344633414430413639234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:09:30,841 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:09:31,730 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:09:32,457 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 178.32.218.21:30224
+06:09:34,6 urllib3.connectionpool DEBUG http://178.32.218.21:30224 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+06:09:34,7 audible.localization DEBUG found locale for united_states
+06:09:34,8 audible.login INFO Login with Amazon Account.
+06:09:36,158 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=XC7flKRNFZgE19GQ3VEJPyldpj07AiR4_7eaR2M3zO8&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3734364546334545393442363430393739433143333345433643343842304243234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:09:38,73 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/133-6865798-6671552 "HTTP/1.1 200 OK"
+06:09:38,866 urllib3.connectionpool DEBUG Starting new HTTP connection (1): www.886it.cn:80
+06:09:39,136 urllib3.connectionpool DEBUG http://www.886it.cn:80 "POST /api/captcha/code HTTP/1.1" 500 None
+06:10:29,607 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:10:30,495 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:10:31,207 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 217.12.203.219:30252
+06:10:32,807 urllib3.connectionpool DEBUG http://217.12.203.219:30252 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+06:10:32,807 audible.localization DEBUG found locale for united_states
+06:10:32,821 audible.login INFO Login with Amazon Account.
+06:10:34,854 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=znTsGGwTB56SVNfRWTygGtNRPF0XBPy7hQoBRIsr2xU&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4236353130413446354236333446323438373138303330433543343543363246234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:10:36,744 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/133-6508509-2478748 "HTTP/1.1 200 OK"
+06:10:37,475 urllib3.connectionpool DEBUG Starting new HTTP connection (1): www.886it.cn:80
+06:10:37,623 urllib3.connectionpool DEBUG http://www.886it.cn:80 "POST /api/captcha/code HTTP/1.1" 500 None
+06:12:43,644 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:12:44,524 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:12:45,256 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 144.76.185.165:31004
+06:12:46,586 urllib3.connectionpool DEBUG http://144.76.185.165:31004 "GET http://httpbin.org/ip HTTP/1.1" 200 31
+06:12:46,586 audible.localization DEBUG found locale for united_states
+06:12:46,592 audible.login INFO Login with Amazon Account.
+06:12:48,984 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=d5X7scMzLxkvHaGuOI7o8XE_ylxHJJI6dnPwfEuPU-A&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3933423432423244433030363443443139323142363145464543394444374630234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:12:51,102 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/142-9777024-3905339 "HTTP/1.1 200 OK"
+06:12:51,771 urllib3.connectionpool DEBUG Starting new HTTP connection (1): www.886it.cn:80
+06:12:53,677 urllib3.connectionpool DEBUG http://www.886it.cn:80 "POST /api/captcha/code HTTP/1.1" 200 None
+06:12:55,76 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:12:55,743 urllib3.connectionpool DEBUG Starting new HTTP connection (1): www.886it.cn:80
+06:12:56,155 urllib3.connectionpool DEBUG http://www.886it.cn:80 "POST /api/captcha/code HTTP/1.1" 200 None
+06:12:57,545 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:12:58,215 urllib3.connectionpool DEBUG Starting new HTTP connection (1): www.886it.cn:80
+06:12:58,479 urllib3.connectionpool DEBUG http://www.886it.cn:80 "POST /api/captcha/code HTTP/1.1" 200 None
+06:12:59,750 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:01,98 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:02,400 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:03,701 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:05,3 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:06,305 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:07,607 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:08,898 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:10,186 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:11,500 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:12,800 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:14,101 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:15,429 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:16,698 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:18,1 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:19,298 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+06:13:32,726 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:13:33,626 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:13:34,281 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.3.3:30024
+06:13:50,398 urllib3.connectionpool DEBUG http://151.106.3.3:30024 "GET http://httpbin.org/ip HTTP/1.1" 200 34
+06:13:50,398 audible.localization DEBUG found locale for united_states
+06:13:50,398 audible.login INFO Login with Amazon Account.
+06:13:57,835 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=MHipzBLaxSxBnzfDDl3U1KoJJvan3ptNDuXDu2nbwmk&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4338304532313932383335313435393341424130413546323532373833384330234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:14:17,476 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/130-2973028-5353051 "HTTP/1.1 200 OK"
+06:14:26,8 urllib3.connectionpool DEBUG Starting new HTTP connection (1): www.886it.cn:80
+06:14:26,272 urllib3.connectionpool DEBUG http://www.886it.cn:80 "POST /api/captcha/code HTTP/1.1" 200 None
+06:15:14,166 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:15:15,53 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:15:15,729 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 91.121.109.60:30140
+06:15:40,162 urllib3.connectionpool DEBUG http://91.121.109.60:30140 "GET http://httpbin.org/ip HTTP/1.1" 503 59
+06:15:41,164 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:15:42,68 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:15:42,795 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 148.251.179.103:30346
+06:15:44,196 urllib3.connectionpool DEBUG http://148.251.179.103:30346 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+06:15:44,196 audible.localization DEBUG found locale for united_states
+06:15:44,196 audible.login INFO Login with Amazon Account.
+06:15:46,405 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=Mgy_LKqat0Ks1FfnZbVhXa3cmjZcREECD7YSrCxgpko&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4339353934384238343133363438383338304637354335383937373834353945234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:15:48,628 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/133-7198250-0745722 "HTTP/1.1 200 OK"
+06:15:51,257 urllib3.connectionpool DEBUG Starting new HTTP connection (1): www.886it.cn:80
+06:15:51,433 urllib3.connectionpool DEBUG http://www.886it.cn:80 "POST /api/captcha/code HTTP/1.1" 500 None
+06:17:16,569 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:17:17,458 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:17:18,125 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.3.3:30025
+06:17:19,656 urllib3.connectionpool DEBUG http://151.106.3.3:30025 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+06:17:19,658 audible.localization DEBUG found locale for united_states
+06:17:19,658 audible.login INFO Login with Amazon Account.
+06:17:22,9 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=F5BYjOFjF5NqH9L8E_MEe74-fryAzgof43vykn828QE&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4632343831353933434434463431444542464539333935454230304635464639234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:17:23,980 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/143-2383221-0253032 "HTTP/1.1 200 OK"
+06:17:51,763 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+06:17:52,645 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+06:17:53,362 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 176.9.119.252:30156
+06:17:54,816 urllib3.connectionpool DEBUG http://176.9.119.252:30156 "GET http://httpbin.org/ip HTTP/1.1" 200 32
+06:17:54,816 audible.localization DEBUG found locale for united_states
+06:17:54,822 audible.login INFO Login with Amazon Account.
+06:17:57,612 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=PKwBARmRaMBMFqvBTIKt0XsJ1UhaAHAepgwSqg3wyb8&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3246323135384546464432343439313241363839374639453941363736463144234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+06:17:59,144 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/141-9612964-3112853 "HTTP/1.1 200 OK"
+06:17:59,375 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): opfcaptcha-prod.s3.amazonaws.com:443
+06:17:59,859 urllib3.connectionpool DEBUG https://opfcaptcha-prod.s3.amazonaws.com:443 "GET /3233616aaa96475493b4d214bd91af54.jpg?AWSAccessKeyId=AKIA5WBBRBBB2Z3DTKHS&Expires=1658125378&Signature=vMnvRy1A49LaxmArjgV2OEb4CF4%3D HTTP/1.1" 200 4842
+06:18:01,334 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 302 Moved Temporarily"
+06:18:02,50 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/maplanding?openid.assoc_handle=amzn_audible_ios_us&openid.claimed_id=https%3A%2F%2Fwww.amazon.com%2Fap%2Fid%2Famzn1.account.AFPGVMPSFAZI3YCMS2OHQNIAGQLQ&openid.identity=https%3A%2F%2Fwww.amazon.com%2Fap%2Fid%2Famzn1.account.AFPGVMPSFAZI3YCMS2OHQNIAGQLQ&openid.mode=id_res&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.op_endpoint=https%3A%2F%2Fwww.amazon.com%2Fap%2Fsignin&openid.response_nonce=2022-07-18T06%3A18%3A00Z6516785543603061489&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.signed=assoc_handle%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Cns.pape%2Cpape.auth_policies%2Cpape.auth_time%2Coa2.authorization_code%2Ccaptcha_verified%2Csigned&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.auth_policies=http%3A%2F%2Fschemas.openid.net%2Fpape%2Fpolicies%2F2007%2F06%2Fnone&openid.pape.auth_time=2022-07-18T06%3A18%3A00Z&openid.sig=IvMcyKaq3rzqdyC0ytvTNHv41r6BHl4gfK3dOCVfmgY%3D&serial=&openid.oa2.authorization_code=ANyOxqFWuNEEFSQtUloLvpaN&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&captcha_verified=1& "HTTP/1.1 404 Not Found"
+06:18:02,707 audible.login ERROR Error message: We're sorry. The Web address you entered is not a functioning page on our site
+06:18:02,720 audible.login DEBUG Login confirmed for 6061110@gmail.com
+06:18:02,722 audible.auth INFO logged in to Audible as 6061110@gmail.com
+06:18:06,283 httpx._client DEBUG HTTP Request: POST https://api.amazon.com/auth/register "HTTP/1.1 200 OK"
+06:18:06,287 audible.auth INFO registered Audible device
+06:18:06,287 asyncio DEBUG Using proactor: IocpProactor
+06:18:06,288 asyncio DEBUG Using proactor: IocpProactor
+06:18:06,310 root INFO \u6570\u636e\u5e93\u8fde\u63a5\u6210\u529f
+06:18:06,310 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlSelectUser
+06:18:06,311 root INFO https://www.amazon.com/a/addresses
+06:18:06,312 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+06:18:06,743 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /a/addresses HTTP/1.1" 302 None
+06:18:06,957 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /a/addresses/unableToProcess HTTP/1.1" 200 None
+06:18:07,285 root INFO addresses
+06:18:07,301 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlInsertReviewAddress
+06:18:07,301 root INFO False
+06:18:07,301 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlSelectUser
+06:18:07,301 root INFO https://www.amazon.com/gp/css/gc/balance?ref_=ya_d_c_gc
+06:18:07,304 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+06:18:07,662 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /gp/css/gc/balance?ref_=ya_d_c_gc HTTP/1.1" 200 None
+06:18:08,6 root INFO US$0.00
+06:18:08,6 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlInsertReviewBalance
+06:18:08,7 root INFO balance
+06:18:08,7 root INFO False
+06:18:08,7 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlSelectUser
+06:18:08,7 root INFO https://www.amazon.com/cpe/yourpayments/wallet?ref_=ya_d_c_pmt_mpo
+06:18:08,9 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+06:18:08,458 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /cpe/yourpayments/wallet?ref_=ya_d_c_pmt_mpo HTTP/1.1" 200 None
+06:18:08,943 root INFO 6061110@gmail.com_yourpayments/wallet.html
+06:18:08,958 root INFO \u4e9a\u9a6c\u900a\u793c\u54c1\u5361
+06:18:08,958 root INFO \u4f59\u989d\uff1a US$0.00
+06:18:08,959 root INFO None
+06:18:08,959 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlInsertReviewWallet
+06:18:08,959 root INFO yourpayments/wallet
+06:18:08,960 root INFO False
+06:18:08,960 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlSelectUser
+06:18:08,960 root INFO https://www.amazon.com/review/review-your-purchases/listing
+06:18:08,962 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+06:18:09,158 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /review/review-your-purchases/listing HTTP/1.1" 200 2159
+06:18:09,163 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlInsertReviewPurchases
+06:18:09,163 root INFO getReviewPurchasesHtml
+06:18:09,164 root INFO True
+06:18:09,168 root INFO \u6210\u529f\u66f4\u65b0\u4e00\u6761\u8bb0\u5f55 sqlInsertReviewWallet
+09:43:47,427 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+09:43:48,856 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+09:43:49,514 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 195.123.221.92:30227
+09:43:50,480 urllib3.connectionpool DEBUG http://195.123.221.92:30227 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+09:43:50,482 audible.localization DEBUG found locale for united_states
+09:43:50,483 audible.login INFO Login with Amazon Account.
+09:43:52,621 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=xpOEq1L4w_9D-ocj7bYFXmq9DOxBhjOOpf4kSCHaJFY&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A3443333737353239313544453443464241443936333233353143443636303543234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+09:43:53,583 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/144-5133203-0238331 "HTTP/1.1 200 OK"
+09:43:53,816 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): opfcaptcha-prod.s3.amazonaws.com:443
+09:43:54,354 urllib3.connectionpool DEBUG https://opfcaptcha-prod.s3.amazonaws.com:443 "GET /461896e1c2de4277b0cabbfe7c961cc1.jpg?AWSAccessKeyId=AKIA5WBBRBBB2Z3DTKHS&Expires=1658137733&Signature=N4lpeEju%2FiNV6Bb4MlP8XdJTqkE%3D HTTP/1.1" 200 4234
+09:43:55,873 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:43:56,105 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): opfcaptcha-prod.s3.amazonaws.com:443
+09:43:56,569 urllib3.connectionpool DEBUG https://opfcaptcha-prod.s3.amazonaws.com:443 "GET /a4b5d0302af547fbb24822693a8f5990.jpg?AWSAccessKeyId=AKIA5WBBRBBB2Z3DTKHS&Expires=1658137735&Signature=6xuTDzQUV9FhE9NNuvaavFQiKIE%3D HTTP/1.1" 200 4945
+09:43:57,832 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:43:58,63 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): opfcaptcha-prod.s3.amazonaws.com:443
+09:43:58,520 urllib3.connectionpool DEBUG https://opfcaptcha-prod.s3.amazonaws.com:443 "GET /764dd3b39a104d89a4e205944f78f793.jpg?AWSAccessKeyId=AKIA5WBBRBBB2Z3DTKHS&Expires=1658137737&Signature=xiYusoc49ZlLegxEuVDxHVhPMrc%3D HTTP/1.1" 200 4225
+09:43:59,543 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:01,208 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:02,237 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:03,259 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:04,575 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:05,872 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:07,231 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:08,79 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:09,234 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:10,602 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:11,884 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:12,746 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:13,562 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:14,795 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:15,771 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:16,705 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:17,726 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:18,702 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:19,958 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:20,955 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:21,788 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:22,576 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:23,845 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:24,887 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:26,201 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:27,735 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:28,413 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:29,231 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:30,440 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:31,278 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:32,262 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:33,392 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:34,713 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:35,490 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:36,900 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:37,964 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:39,230 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:40,623 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:41,482 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:42,577 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:43,406 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:44,548 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:46,19 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:47,5 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:47,866 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:49,195 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:50,696 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:52,13 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:53,109 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:54,470 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:55,145 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:56,428 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:57,773 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:44:58,869 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:00,230 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:00,903 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:01,732 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:02,655 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:03,469 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:04,344 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:05,518 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:06,462 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:07,291 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:08,339 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:09,356 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:10,373 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:11,374 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:12,188 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:12,986 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:14,206 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:15,473 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:16,568 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:17,945 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:19,262 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:20,545 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:21,171 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:21,985 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:23,221 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:24,128 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:25,52 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:26,29 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:26,898 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:27,724 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:28,569 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:29,554 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:30,414 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:31,259 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:32,26 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:33,856 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:35,310 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:36,155 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:37,16 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:37,908 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:39,128 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:40,379 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:41,240 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:42,7 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:42,852 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:43,907 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:44,705 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:45,973 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:47,255 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:48,601 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:49,398 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:50,697 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:51,636 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:52,450 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:53,278 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:54,155 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:55,0 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:55,798 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:56,674 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:57,440 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:58,301 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:59,83 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:45:59,771 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:00,772 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:01,962 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:03,88 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:04,120 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:04,966 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:05,779 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:06,733 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:07,563 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:08,611 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:09,831 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:10,864 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:11,865 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:13,210 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:14,289 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:15,103 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:15,932 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:17,230 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:18,466 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:19,874 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:21,1 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:22,49 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:23,300 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:24,192 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:25,507 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:26,554 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:27,792 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:28,730 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:29,606 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:30,764 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:31,578 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:32,673 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:33,471 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:34,801 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:35,598 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:36,380 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:37,647 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:38,868 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:40,213 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:42,59 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:42,904 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:43,983 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:45,876 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:46,689 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:47,722 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:48,520 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:49,803 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:50,663 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:51,445 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:52,697 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:54,169 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:55,436 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:56,499 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:57,297 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:58,220 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:46:59,488 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:47:00,551 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:47:01,723 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:47:02,584 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:47:03,523 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:47:04,806 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:47:06,119 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:47:07,481 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:47:08,109 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:47:09,312 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 200 OK"
+09:47:20,964 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): foortu.com:443
+09:47:21,853 urllib3.connectionpool DEBUG https://foortu.com:443 "GET /proxy/1134f1fba496dc78a93017d52bbe46a4 HTTP/1.1" 200 None
+09:47:22,582 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 151.106.3.3:30279
+09:47:24,215 urllib3.connectionpool DEBUG http://151.106.3.3:30279 "GET http://httpbin.org/ip HTTP/1.1" 200 33
+09:47:24,216 audible.localization DEBUG found locale for united_states
+09:47:24,217 audible.login INFO Login with Amazon Account.
+09:47:27,410 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/signin?openid.oa2.response_type=code&openid.oa2.code_challenge_method=S256&openid.oa2.code_challenge=kFAfqddCycNfmNpIUHD95JA2j6YnZFE0LGZe2bOCpnA&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.assoc_handle=amzn_audible_ios_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_audible_ios&accountStatusPolicy=P1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&openid.oa2.client_id=device%3A4333454546323343323531383445343038314334463033423745413233384336234132435a4a5a474c4b324a4a564d&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&marketPlaceId=AF2M0KC94RCEA&openid.oa2.scope=device_auth_access&forceMobileLayout=true&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=0 "HTTP/1.1 200 OK"
+09:47:29,900 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin/142-5993335-1647656 "HTTP/1.1 200 OK"
+09:47:30,666 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): opfcaptcha-prod.s3.amazonaws.com:443
+09:47:31,149 urllib3.connectionpool DEBUG https://opfcaptcha-prod.s3.amazonaws.com:443 "GET /93b40f41ea9045d5832f65abb4f18b23.jpg?AWSAccessKeyId=AKIA5WBBRBBB2Z3DTKHS&Expires=1658137949&Signature=2Q17ubkcvB0FIEoZslCKYlwQWpg%3D HTTP/1.1" 200 4532
+09:47:33,25 httpx._client DEBUG HTTP Request: POST https://www.amazon.com/ap/signin "HTTP/1.1 302 Found"
+09:47:34,56 httpx._client DEBUG HTTP Request: GET https://www.amazon.com/ap/maplanding?openid.assoc_handle=amzn_audible_ios_us&openid.claimed_id=https%3A%2F%2Fwww.amazon.com%2Fap%2Fid%2Famzn1.account.AFPGVMPSFAZI3YCMS2OHQNIAGQLQ&openid.identity=https%3A%2F%2Fwww.amazon.com%2Fap%2Fid%2Famzn1.account.AFPGVMPSFAZI3YCMS2OHQNIAGQLQ&openid.mode=id_res&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.op_endpoint=https%3A%2F%2Fwww.amazon.com%2Fap%2Fsignin&openid.response_nonce=2022-07-18T09%3A47%3A32Z-703682192172380711&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Fmaplanding&openid.signed=assoc_handle%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Cns.pape%2Cpape.auth_policies%2Cpape.auth_time%2Coa2.authorization_code%2Ccaptcha_verified%2Csigned&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.auth_policies=http%3A%2F%2Fschemas.openid.net%2Fpape%2Fpolicies%2F2007%2F06%2Fnone&openid.pape.auth_time=2022-07-18T09%3A47%3A32Z&openid.sig=boJh7GsHzr9GPIlqjDMLih8g5hUx08%2FoWaJiE4T9GIw%3D&serial=&openid.oa2.authorization_code=ANNsLQMpMEryAaPIIyIrYKNA&openid.ns.oa2=http%3A%2F%2Fwww.amazon.com%2Fap%2Fext%2Foauth%2F2&captcha_verified=1& "HTTP/1.1 404 Not Found"
+09:47:34,825 audible.login ERROR Error message: We're sorry. The Web address you entered is not a functioning page on our site
+09:47:34,826 audible.login DEBUG Login confirmed for 6061110@gmail.com
+09:47:34,828 audible.auth INFO logged in to Audible as 6061110@gmail.com
+09:47:39,197 httpx._client DEBUG HTTP Request: POST https://api.amazon.com/auth/register "HTTP/1.1 200 OK"
+09:47:39,199 audible.auth INFO registered Audible device
+09:47:39,199 asyncio DEBUG Using proactor: IocpProactor
+09:47:39,200 asyncio DEBUG Using proactor: IocpProactor
+09:47:39,223 root INFO \u6570\u636e\u5e93\u8fde\u63a5\u6210\u529f
+09:47:39,224 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlSelectUser
+09:47:39,224 root INFO https://www.amazon.com/a/addresses
+09:47:39,226 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+09:47:39,557 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /a/addresses HTTP/1.1" 302 None
+09:47:39,780 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /a/addresses/unableToProcess HTTP/1.1" 200 None
+09:47:40,115 root INFO addresses
+09:47:40,128 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlInsertReviewAddress
+09:47:40,128 root INFO False
+09:47:40,129 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlSelectUser
+09:47:40,129 root INFO https://www.amazon.com/gp/css/gc/balance?ref_=ya_d_c_gc
+09:47:40,130 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+09:47:40,489 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /gp/css/gc/balance?ref_=ya_d_c_gc HTTP/1.1" 200 None
+09:47:40,828 root INFO US$0.00
+09:47:40,828 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlInsertReviewBalance
+09:47:40,828 root INFO balance
+09:47:40,828 root INFO False
+09:47:40,828 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlSelectUser
+09:47:40,828 root INFO https://www.amazon.com/cpe/yourpayments/wallet?ref_=ya_d_c_pmt_mpo
+09:47:40,830 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+09:47:41,279 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /cpe/yourpayments/wallet?ref_=ya_d_c_pmt_mpo HTTP/1.1" 200 None
+09:47:41,744 root INFO 6061110@gmail.com_yourpayments/wallet.html
+09:47:41,759 root INFO \u4e9a\u9a6c\u900a\u793c\u54c1\u5361
+09:47:41,759 root INFO \u4f59\u989d\uff1a US$0.00
+09:47:41,759 root INFO None
+09:47:41,759 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlInsertReviewWallet
+09:47:41,759 root INFO yourpayments/wallet
+09:47:41,759 root INFO False
+09:47:41,759 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlSelectUser
+09:47:41,759 root INFO https://www.amazon.com/review/review-your-purchases/listing
+09:47:41,774 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.amazon.com:443
+09:47:42,415 urllib3.connectionpool DEBUG https://www.amazon.com:443 "GET /review/review-your-purchases/listing HTTP/1.1" 200 2161
+09:47:42,415 root INFO \u6570\u636e\u63d2\u5165\u5931\u8d25 sqlInsertReviewPurchases
+09:47:42,415 root INFO getReviewPurchasesHtml
+09:47:42,415 root INFO True
+09:47:42,415 root INFO \u6210\u529f\u66f4\u65b0\u4e00\u6761\u8bb0\u5f55 sqlInsertReviewWallet

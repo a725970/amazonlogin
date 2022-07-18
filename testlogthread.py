@@ -69,6 +69,54 @@ def recognize_text(src):
     res = ocr.classification(img_bytes)
     return res
 
+def get_as_base64(url):
+  
+    import base64
+    string_encode = url.encode('utf-8')
+    #ecode in base 64
+    encoded = base64.b64encode(string_encode)
+    return encoded
+def getcode(url) -> str:
+
+    import requests
+    baseurl = get_as_base64(url)
+    # baseurl = url
+    cookies = {
+        'Hm_lvt_bdf832ab1ffdfc8d82a51ed36abf6778': '1655971061',
+        'XSRF-TOKEN': 'eyJpdiI6ImxTVW9tMXlxTGpzOG51YkhGYUI5cGc9PSIsInZhbHVlIjoiZnc1K3ZcL016bEVBbjBJVGZJNDhRd0h2clI1aCtJdEZGZjFYbkxGcitrWGs4ZmZ6YnczUGJQK3BlbjcyQXowRDgiLCJtYWMiOiI5YzA4N2Q4ZGJiNmMxOGU5YjgwMTQzYTY3ZTVjZTM5ZjFjZjM2ZDYwOGQ1YmI2NjYzN2MyYzkzNmEzYWRlYTVmIn0%3D',
+        'laravel_session': 'eyJpdiI6IlBtYlFpYUQxXC84am1nTERPVFJ3WXFBPT0iLCJ2YWx1ZSI6IjQzbmF0MlF2ZGNVV0h5VkI4UU1pc1F5bmR4WmlUc0lJM1VEU295RHVVWEFvb2YwYVJNOWh0dW5kS3MwOCtLQU0iLCJtYWMiOiJiNTI3MjkzNWZhNmY2MmVmNTc0MDYxZDE1Yzg0MjcwOGM0NzMxNmQwODZiNWM0MzRlNDk1ZjUwMDU0ZWRlZTQ1In0%3D',
+        'Hm_lpvt_bdf832ab1ffdfc8d82a51ed36abf6778': '1655971231',
+    }
+    headers = {
+        'Accept': '*/*',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Connection': 'keep-alive',
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        # Requests sorts cookies= alphabetically
+        # 'Cookie': 'Hm_lvt_bdf832ab1ffdfc8d82a51ed36abf6778=1655971061; XSRF-TOKEN=eyJpdiI6ImxTVW9tMXlxTGpzOG51YkhGYUI5cGc9PSIsInZhbHVlIjoiZnc1K3ZcL016bEVBbjBJVGZJNDhRd0h2clI1aCtJdEZGZjFYbkxGcitrWGs4ZmZ6YnczUGJQK3BlbjcyQXowRDgiLCJtYWMiOiI5YzA4N2Q4ZGJiNmMxOGU5YjgwMTQzYTY3ZTVjZTM5ZjFjZjM2ZDYwOGQ1YmI2NjYzN2MyYzkzNmEzYWRlYTVmIn0%3D; laravel_session=eyJpdiI6IlBtYlFpYUQxXC84am1nTERPVFJ3WXFBPT0iLCJ2YWx1ZSI6IjQzbmF0MlF2ZGNVV0h5VkI4UU1pc1F5bmR4WmlUc0lJM1VEU295RHVVWEFvb2YwYVJNOWh0dW5kS3MwOCtLQU0iLCJtYWMiOiJiNTI3MjkzNWZhNmY2MmVmNTc0MDYxZDE1Yzg0MjcwOGM0NzMxNmQwODZiNWM0MzRlNDk1ZjUwMDU0ZWRlZTQ1In0%3D; Hm_lpvt_bdf832ab1ffdfc8d82a51ed36abf6778=1655971231',
+        'Origin': 'http://www.886it.cn',
+        'Referer': 'http://www.886it.cn/',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44',
+        'X-CSRF-TOKEN': 'DXFif1szsXKBu7FwfBKOVaU89nZRusHWKvO8clka',
+        'X-Client-Id': '8ac8dcc587bbedb8ad857e8c6692f1ad',
+        'X-Requested-With': 'XMLHttpRequest',
+    }
+    print(baseurl)
+    data = {
+        'captcha_url': baseurl,
+        'key': 'B4EF4EV1O1',
+        'captcha_type': 'amazon',
+    }
+
+  
+    response = requests.post('http://www.886it.cn/api/captcha/code', cookies=cookies, headers=headers, data=data, verify=False)
+    
+    resu = json.loads(response.text)
+    print(resu)
+    if resu['error'] == 0:
+        return resu['code']
+    return False
+
 
 def quit(signum, frame):
     print('*'*30)
@@ -512,7 +560,7 @@ class Spider():
 async def getinfo(auth,locale,account,proxys,userAgent):
     async with audible.AsyncClient(auth) as client:
         # print(repr(client))
-        
+        print(111111111)
         with httpx.Client(cookies=auth.website_cookies) as session:
             scheme, netloc, path, _, _, _ = urlparse(REGIONS_URLS[locale])
             url = 'https://'+netloc+'/'
@@ -577,19 +625,20 @@ def custom_approval_callback(userinfo: str):
         f.write(userinfo)
     return "My answer for callback"
 
-def custom_captcha_callback(captcha_url: str) -> str:
-    return False
+def custom_captcha_callback(captcha_url: str,userinfo: str) -> str:
+    # return False
     """Opens captcha image with eog, or default webbrowser as fallback"""
-    print(captcha_url)
-    # LOGINCOUNT[userinfo] =+ 1
-    # if LOGINCOUNT[userinfo] > 3:
-    #     return True
+    
+    LOGINCOUNT[userinfo] += 1
+
+    if int(LOGINCOUNT[userinfo]) > 3:
+        return True
     # print(LOGINCOUNT)
     # src = cv.imread(captcha_url)
     start = time.time()
    
     val = recognize_text(captcha_url)
-  
+    # val = getcode(captcha_url)
     end = time.time()
     print('Running time: %s Seconds' % (end-start))
 
@@ -611,7 +660,7 @@ def authlogin(locale,user,password,myproxy,userAgent):
     )
     # custom_captcha_callback
     sem = asyncio.Semaphore(10)
-    asyncio.run(getinfo(infos, auth,locale,user,myproxy,userAgent))
+    asyncio.run(getinfo(auth,locale,user,myproxy,userAgent))
     # getinfo(auth,locale,user,myproxy,userAgent)
     # loop = asyncio.get_event_loop()
     # loop.run_until_complete(main(auth,locale,user,myproxy,userAgent))          
