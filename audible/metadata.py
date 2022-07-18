@@ -5,7 +5,7 @@ import math
 import struct
 from datetime import datetime
 from typing import List, Tuple, Union
-
+from rustpython import get_fp
 
 # key used for encrypt/decrypt metadata1
 METADATA_KEY: bytes = b'a\x03\x8fp4\x18\x97\x99:\xeb\xe7\x8b\x85\x97$4'
@@ -159,10 +159,11 @@ def now_to_unix_ms() -> int:
     return math.floor(datetime.now().timestamp() * 1000)
 
 
-def meta_audible_app(user_agent: str, oauth_url: str) -> str:
+def meta_audible_app(user_agent: str, oauth_url: str, email: str) -> str:
     """
     Returns json-formatted metadata to simulate sign-in from iOS audible app.
     """
+    canvas_hash, email_hash, hist = get_fp(email)
 
     meta_dict = {
         "start": now_to_unix_ms(),
@@ -315,9 +316,9 @@ def meta_audible_app(user_agent: str, oauth_url: str) -> str:
             }
         },
         "canvas": {
-            "hash": -373378155,
-            "emailHash": -1447130560,
-            "histogramBins": []
+            "hash": canvas_hash,
+            "emailHash": email_hash,
+            "histogramBins": hist
         },
         "token": None,
         "errors": [],

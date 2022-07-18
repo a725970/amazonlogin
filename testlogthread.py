@@ -578,12 +578,13 @@ def custom_approval_callback(userinfo: str):
     return "My answer for callback"
 
 def custom_captcha_callback(captcha_url: str) -> str:
+    return False
     """Opens captcha image with eog, or default webbrowser as fallback"""
     print(captcha_url)
     # LOGINCOUNT[userinfo] =+ 1
     # if LOGINCOUNT[userinfo] > 3:
     #     return True
-    print(LOGINCOUNT)
+    # print(LOGINCOUNT)
     # src = cv.imread(captcha_url)
     start = time.time()
    
@@ -608,7 +609,7 @@ def authlogin(locale,user,password,myproxy,userAgent):
         cvf_callback=None,
         approval_callback=None
     )
-    
+    # custom_captcha_callback
     sem = asyncio.Semaphore(10)
     asyncio.run(getinfo(infos, auth,locale,user,myproxy,userAgent))
     # getinfo(auth,locale,user,myproxy,userAgent)
@@ -646,40 +647,41 @@ def asyncamzon(index):
 
     with open('amazon.txt', 'r') as f:
         for i, line in enumerate(f):
-            
-            if i % 10 == index:
-                proxy_ip = None
-                while True:
-                    proxy_ip = get_ip()
-                 
-                    print("拿到代理IP:", proxy_ip)
-                    proxies = {
-                        'http': 'http://' + proxy_ip,
-                    }
-                    try:
-                        resp = requests.get("http://httpbin.org/ip", proxies=proxies)
-                        print("代理返回码:", resp.status_code)
-                        if resp.status_code == 200:
-                            break
-                        else:
+            try:
+                if i % 10 == index:
+                    proxy_ip = None
+                    while True:
+                        proxy_ip = get_ip()
+                    
+                        print("拿到代理IP:", proxy_ip)
+                        proxies = {
+                            'http': 'http://' + proxy_ip,
+                        }
+                        try:
+                            resp = requests.get("http://httpbin.org/ip", proxies=proxies)
+                            print("代理返回码:", resp.status_code)
+                            if resp.status_code == 200:
+                                break
+                            else:
+                                print("IP:", proxy_ip, "无效")
+                                time.sleep(1)
+                        except:
                             print("IP:", proxy_ip, "无效")
                             time.sleep(1)
-                    except:
-                        print("IP:", proxy_ip, "无效")
-                        time.sleep(1)
-                userinfo = line.split('|')
-                user = userinfo[0]
-                password = userinfo[1]
-                locale = userinfo[2].replace('\n', '')
-                # validip_que.put("https://127.0.0.1:7890")
-               
-                print(userinfo)
-                userAgent =  userAgents.getUA()
-                myproxy=proxy_ip
-               
-                authlogin(locale,user,password,myproxy,userAgent)
-          
-
+                    userinfo = line.split('|')
+                    user = userinfo[0]
+                    password = userinfo[1]
+                    locale = userinfo[2].replace('\n', '')
+                    # validip_que.put("https://127.0.0.1:7890")
+                
+                    print(userinfo)
+                    userAgent =  userAgents.getUA()
+                    myproxy=proxy_ip
+                
+                    authlogin(locale,user,password,myproxy,userAgent)
+            
+            except:
+                pass
   
 if __name__ == "__main__":
     import time

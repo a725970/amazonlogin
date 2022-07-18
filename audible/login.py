@@ -127,12 +127,14 @@ def get_soup(resp, log_errors=True):
         error_message = errorbox.find("h4").string.strip()
         for list_item in errorbox.findAll("li"):
             error_message += " " + list_item.find("span").string.strip()
-        logger.error("Error message: %s", error_message)
+        # logger.error("Error message: %s", error_message)
+        return False
 
     aperror = soup.find(id="ap_error_page_message")
     if aperror:
         error_message = aperror.find(recursive=False, text=True).strip()
         logger.error("Error message: %s", error_message)
+        return False
 
     return soup
 
@@ -366,7 +368,7 @@ def login(
         logger.info("Login with Audible username.")
     else:
         if not is_valid_email(username):
-            logger.warning(f"Username {username} is not a valid mail address.")
+            logger.warning(f"Username {username} is not a valid mail address.222")
         base_url = f"https://www.amazon.{domain}"
         logger.info("Login with Amazon Account.")
 
@@ -402,7 +404,7 @@ def login(
     login_inputs["email"] = username
     login_inputs["password"] = password
 
-    metadata = meta_audible_app(userAgent, base_url)
+    metadata = meta_audible_app(userAgent, base_url,username)
     login_inputs["metadata1"] = encrypt_metadata(metadata)
 
     method, url = get_next_action_from_soup(oauth_soup, {"name": "signIn"})
