@@ -36,6 +36,16 @@ ipCheckoutThreadMount = 7
 ipCollectThreadMount = 2
 dataCollectThreadMount = 5  
 LOGINCOUNT = {}
+
+class QueueNew(Queue):
+    def randget(self):
+        from random import randrange
+        self.queue.rotate(randrange(0,self._qsize()))
+        return self.get()
+    def getSize(self):
+        return self._qsize()
+
+IPQUEUE = QueueNew()
 REGIONS_URLS = {
     "sg": "https://www.amazon.sg/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https://www.amazon.sg/ref=nav_logo/?_encoding=UTF8&ref_=navm_hdr_signin&openid.identity=http://specs.openid.net/auth/2.0/identifier_select&openid.assoc_handle=anywhere_v2_sg&openid.mode=checkid_setup&openid.claimed_id=http://specs.openid.net/auth/2.0/identifier_select&openid.ns=http://specs.openid.net/auth/2.0&",
     "nl": "https://www.amazon.nl/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https://www.amazon.nl/ref=nav_logo/?_encoding=UTF8&ref_=navm_hdr_signin&openid.identity=http://specs.openid.net/auth/2.0/identifier_select&openid.assoc_handle=anywhere_v2_nl&openid.mode=checkid_setup&openid.claimed_id=http://specs.openid.net/auth/2.0/identifier_select&openid.ns=http://specs.openid.net/auth/2.0&",
@@ -632,11 +642,11 @@ def custom_captcha_callback(captcha_url: str,userinfo: str) -> str:
     """Opens captcha image with eog, or default webbrowser as fallback"""
     
     LOGINCOUNT[userinfo]['count'] += 1
-
+    print(LOGINCOUNT[userinfo])
     if int(LOGINCOUNT[userinfo]['count']) >= 3:
         with open('fail/outcount.txt', 'a+', encoding='utf-8') as f:
             f.write(LOGINCOUNT[userinfo]['userinfo'])
-        return False
+        exit()
     # print(LOGINCOUNT)
     # src = cv.imread(captcha_url)
     start = time.time()
@@ -672,32 +682,42 @@ def authlogin(locale,user,password,myproxy,userAgent):
     # loop.run_until_complete(main(auth,locale,user,myproxy,userAgent))          
         
 def get_ip() -> str:
-    apiUrl="https://foortu.com/proxy/1134f1fba496dc78a93017d52bbe46a4"
-    
-    print("开始采集代理IP")
-    # headers.txt里的内容为浏览器打开apiUrl的请求头，将该请求头用于发送请求代理IP的接口
-    with open('proxy_api_requestHeaders.txt', 'r') as f:
-        headerStr=f.read()
-        headersArr=headerStr.split('\n')
-    headers={}
-    for headerItem in headersArr:
-        headersItemName=headerItem.split(': ')[0]
-        headerItemValue=headerItem.split(': ')[1]
-        headers[headersItemName]=headerItemValue
-    response = requests.get(apiUrl,headers=headers,verify=False)
-    
-    text = response.text
-    
-    to_one_line = ' '.join(text.split())
-    ip_list = to_one_line.split(' ')
+    # 先
+    if IPQUEUE.getSize()<100:
+        apiUrl="https://foortu.com/proxy/1134f1fba496dc78a93017d52bbe46a4"
+        
+        print("开始采集代理IP")
+        # headers.txt里的内容为浏览器打开apiUrl的请求头，将该请求头用于发送请求代理IP的接口
+        with open('proxy_api_requestHeaders.txt', 'r') as f:
+            headerStr=f.read()
+            headersArr=headerStr.split('\n')
+        headers={}
+        for headerItem in headersArr:
+            headersItemName=headerItem.split(': ')[0]
+            headerItemValue=headerItem.split(': ')[1]
+            headers[headersItemName]=headerItemValue
+        response = requests.get(apiUrl,headers=headers,verify=False)
+        
+        text = response.text
+        
+        to_one_line = ' '.join(text.split())
+        ip_list = to_one_line.split(' ')
+        for ip in ip_list[0:5000]:
+            IPQUEUE.put(ip)
 
-   
-    # with open("./ip.txt", "r") as ip_handle:
-    #     ip_data = ip_handle.read()
-    #     ip_data = ip_data.strip()
-    #     ip_list = ip_data.split("\n")
-    ip = ip_list[random.randint(0, len(ip_list)-1)]
+        # with open("./ip.txt", "r") as ip_handle:
+        #     ip_data = ip_handle.read()
+        #     ip_data = ip_data.strip()
+        #     ip_list = ip_data.split("\n")
+    # ip = ip_list[random.randint(0, len(ip_list)-1)]
+    ip = IPQUEUE.randget()
+    print('------------------'+str(IPQUEUE.getSize()))
     return ip
+
+def randget():
+    from random import randrange
+    IPQUEUE.rotate(randrange(0,IPQUEUE._qsize()))
+    return IPQUEUE.get()
 def asyncamzon(index): 
 
     with open('amazon.txt', 'r') as f:

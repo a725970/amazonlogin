@@ -246,7 +246,9 @@ def build_oauth_url(
         "openid.ns": "http://specs.openid.net/auth/2.0",
         "openid.pape.max_auth_age": "0"
     }
-
+    if country_code == 'us':
+        return f"# https://apac.account.amazon.com/ap/signin?_encoding=UTF8&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.pape.max_auth_age=0&ie=UTF8&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_lwa_apac&marketPlaceId=A1MA27DB7MMG0L&arb=ad3c2af7-6ee6-4579-affc-593afa80f82c&language=ja_JP&openid.return_to=https%3A%2F%2Fapac.account.amazon.com%2Fap%2Foa%3FmarketPlaceId%3DA1MA27DB7MMG0L%26arb%3Dad3c2af7-6ee6-4579-affc-593afa80f82c%26language%3Dja_JP&enableGlobalAccountCreation=1&metricIdentifier=amzn1.application.e6909df0c9dc452a8dba5a23feb72c38&signedMetricIdentifier=5uyKncQ9nhBGCJjs4EZa8WGl2IePKSLXMe2yqwzHXTk%3D", serial
+    
     return f"{base_url}?{urlencode(oauth_params)}", serial
 
 
